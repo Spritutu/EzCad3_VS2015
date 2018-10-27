@@ -1,0 +1,2318 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#include ""res\\EzCad3_VS2015.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#include ""l.CHS\\afxprint.rc""    // 打印/打印预览资源\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""l.CHS\\afxribbon.rc""        // MFC 功能区和控制条资源\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Ezcad3.ico"
+
+IDR_EzCad3_VS2015TYPE   ICON                    "res\\EzCad3_VS2015Doc.ico"
+
+IDI_FILE_VIEW           ICON                    "res\\file_view.ico"
+
+IDI_FILE_VIEW_HC        ICON                    "res\\file_view_hc.ico"
+
+IDI_CLASS_VIEW          ICON                    "res\\class_view.ico"
+
+IDI_CLASS_VIEW_HC       ICON                    "res\\class_view_hc.ico"
+
+IDI_OUTPUT_WND          ICON                    "res\\output_wnd.ico"
+
+IDI_OUTPUT_WND_HC       ICON                    "res\\output_wnd_hc.ico"
+
+IDI_PROPERTIES_WND      ICON                    "res\\properties_wnd.ico"
+
+IDI_PROPERTIES_WND_HC   ICON                    "res\\properties_wnd_hc.ico"
+
+IDI_ICON_YFIRST         ICON                    "res\\icon_cw1.ico"
+
+IDI_ICON_XFIRST         ICON                    "res\\icon_xfi.ico"
+
+IDI_ICON_BIDIR          ICON                    "res\\ico00028.ico"
+
+IDI_ICON_SINGLEDIR      ICON                    "res\\icon_bid.ico"
+
+IDI_ICON_CW             ICON                    "res\\ico00014.ico"
+
+IDI_ICON_CCW            ICON                    "res\\ico00015.ico"
+
+IDI_ICON_LOCK           ICON                    "res\\icon1.ico"
+
+IDI_ICON_TEXT_SIDE      ICON                    "res\\ico00025.ico"
+
+IDI_ICON_TEXT_R         ICON                    "res\\ico00027.ico"
+
+IDI_ICON_TEXT_L         ICON                    "res\\icon_tex.ico"
+
+IDI_ICON_TEXT_C         ICON                    "res\\ico00026.ico"
+
+IDI_ICON_STAR1          ICON                    "res\\icon_sta.ico"
+
+IDI_ICON_TEXT_SIDE1     ICON                    "res\\ico00033.ico"
+
+IDI_ICON_TEXT_SAVE1     ICON                    "res\\ico00034.ico"
+
+IDI_ICON_TEXT_R1        ICON                    "res\\ico00035.ico"
+
+IDI_ICON_TEXT_PRJ1      ICON                    "res\\ico00036.ico"
+
+IDI_ICON_TEXT_PATH1     ICON                    "res\\ico00037.ico"
+
+IDI_ICON_TEXT_L1        ICON                    "res\\ico00038.ico"
+
+IDI_ICON_TEXT_HATCH1    ICON                    "res\\ico00039.ico"
+
+IDI_ICON_TEXT_FORMAT1   ICON                    "res\\ico00040.ico"
+
+IDI_ICON_TEXT_C1        ICON                    "res\\ico00041.ico"
+
+IDI_ICON_TEXT_BARCODE1  ICON                    "res\\ico00017.ico"
+
+IDI_ICON_UNLOCK         ICON                    "res\\icon2.ico"
+
+IDI_ICON_LISTON         ICON                    "res\\ico00001.ico"
+
+IDI_ICON_LISTOFF        ICON                    "res\\icon_lis.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME_256       BITMAP                  "res\\Toolbar256.bmp"
+
+IDR_SORT                BITMAP                  "res\\sort.bmp"
+
+IDB_SORT_24             BITMAP                  "res\\sort_hc.bmp"
+
+IDB_FILE_VIEW           BITMAP                  "res\\fileview.bmp"
+
+IDB_FILE_VIEW_24        BITMAP                  "res\\fileview_hc.bmp"
+
+IDB_CLASS_VIEW          BITMAP                  "res\\classview.bmp"
+
+IDB_CLASS_VIEW_24       BITMAP                  "res\\classview_hc.bmp"
+
+IDR_EXPLORER            BITMAP                  "res\\explorer.bmp"
+
+IDB_EXPLORER_24         BITMAP                  "res\\explorer_hc.bmp"
+
+IDR_MENU_IMAGES         BITMAP                  "res\\menuimages.bmp"
+
+IDB_MENU_IMAGES_24      BITMAP                  "res\\menuimages_hc.bmp"
+
+IDR_PROPERTIES          BITMAP                  "res\\properties.bmp"
+
+IDB_PROPERTIES_HC       BITMAP                  "res\\properties_hc.bmp"
+
+IDB_BITMAP_MARK_ON      BITMAP                  "res\\bitmap1.bmp"
+
+IDB_BITMAP_DRAG_MUL     BITMAP                  "res\\bmp00003.bmp"
+
+IDB_BITMAP_DRAG_ONE     BITMAP                  "res\\bitmap2.bmp"
+
+IDB_BITMAP_SHOWOFF      BITMAP                  "res\\ShowOff.bmp"
+
+IDB_BITMAP_SHOWON       BITMAP                  "res\\ShowOn.bmp"
+
+IDB_BITMAP_ENT0         BITMAP                  "res\\EntType0.bmp"
+
+IDB_BITMAP_ENT1         BITMAP                  "res\\EntType1.bmp"
+
+IDB_BITMAP_ENT2         BITMAP                  "res\\EntType2.bmp"
+
+IDB_BITMAP_ENT3         BITMAP                  "res\\EntType3.bmp"
+
+IDB_BITMAP_ENT4         BITMAP                  "res\\EntType4.bmp"
+
+IDB_BITMAP_ENT5         BITMAP                  "res\\EntType5.bmp"
+
+IDB_BITMAP_ENT6         BITMAP                  "res\\EntType6.bmp"
+
+IDB_BITMAP_ENT7         BITMAP                  "res\\EntType7.bmp"
+
+IDB_BITMAP_ENT8         BITMAP                  "res\\EntType8.bmp"
+
+IDB_BITMAP_ENT9         BITMAP                  "res\\EntType9.bmp"
+
+IDB_BITMAP_ENT10        BITMAP                  "res\\EntType10.bmp"
+
+IDB_BITMAP_ENT12        BITMAP                  "res\\EntType12.bmp"
+
+IDB_BITMAP_ENT13        BITMAP                  "res\\EntType13.bmp"
+
+IDB_BITMAP_ENT14        BITMAP                  "res\\EntType14.bmp"
+
+IDB_BITMAP_ENT15        BITMAP                  "res\\EntType15.bmp"
+
+IDB_BITMAP_ENT19        BITMAP                  "res\\EntType19.bmp"
+
+IDB_BITMAP_ENT20        BITMAP                  "res\\EntType20.bmp"
+
+IDB_BITMAP_ENT22        BITMAP                  "res\\bmp00051.bmp"
+
+IDB_BITMAP_ENT23        BITMAP                  "res\\bmp00053.bmp"
+
+IDB_BITMAP_ENT24        BITMAP                  "res\\bmp00054.bmp"
+
+IDB_BITMAP_ENT16        BITMAP                  "res\\bmp00056.bmp"
+
+IDB_BITMAP_ENT21        BITMAP                  "res\\bitmap_e.bmp"
+
+IDB_BITMAP_ENTTYPE      BITMAP                  "res\\bmp00002.bmp"
+
+IDB_BITMAP_CMDPICK      BITMAP                  "res\\bitmap_s.bmp"
+
+IDB_BITMAP_SYS          BITMAP                  "res\\bmp00001.bmp"
+
+IDR_TOOLBAR_CMDNODE     BITMAP                  "res\\bmp00046.bmp"
+
+IDR_TOOLBAR_DRAW        BITMAP                  "res\\bmp00005.bmp"
+
+IDR_TOOLBAR_CMDPICK     BITMAP                  "res\\bmp00006.bmp"
+
+IDR_TOOLBAR_ZOOM3D      BITMAP                  "res\\toolbar_.bmp"
+
+IDR_TOOLBAR_3DFUN       BITMAP                  "res\\bmp00050.bmp"
+
+IDB_BITMAP_ROTATEZ      BITMAP                  "res\\rotatez.bmp"
+
+IDB_BITMAP_ROTATEY      BITMAP                  "res\\rotatey.bmp"
+
+IDB_BITMAP_ROTATEX      BITMAP                  "res\\rotatex.bmp"
+
+IDB_BITMAP_COORANG      BITMAP                  "res\\bmp00004.bmp"
+
+IDR_TOOLBAR_ZOOM        BITMAP                  "res\\mainfram.bmp"
+
+IDB_BITMAP_MARK_OFF     BITMAP                  "res\\bitmap_m.bmp"
+
+IDR_TOOLBAR_ALIGN       BITMAP                  "res\\bmp00058.bmp"
+
+IDB_BITMAP_LAMPSMALL3   BITMAP                  "res\\lampSmall3.bmp"
+
+IDB_BITMAP_LAMPSMALL2   BITMAP                  "res\\lampSmall2.bmp"
+
+IDB_BITMAP_LAMPSMALL1   BITMAP                  "res\\lampSmall1.bmp"
+
+IDB_BITMAP_DRAW24       BITMAP                  "res\\drawtoolbar.bmp"
+
+IDB_BITMAP_CROSS        BITMAP                  "res\\bitmap5.bmp"
+
+IDB_BITMAP_ENT25        BITMAP                  "res\\bmp00060.bmp"
+
+IDB_BITMAP_ENT26        BITMAP                  "res\\bmp00061.bmp"
+
+IDB_BITMAP_ENT27        BITMAP                  "res\\bmp00062.bmp"
+
+IDB_BITMAP_ENT28        BITMAP                  "res\\bmp00063.bmp"
+
+IDR_TOOLBAR_DRAW2       BITMAP                  "res\\bmp00007.bmp"
+
+IDR_TOOLBAR_SYS         BITMAP                  "res\\bmp00008.bmp"
+
+IDB_LISTSHOW_ON         BITMAP                  "res\\sort_25.bmp"
+
+IDB_LISTSHOW_OFF        BITMAP                  "res\\listshow.bmp"
+
+IDR_TOOLBAR_MARK        BITMAP                  "res\\toolbar1.bmp"
+
+IDR_TOOLBAR_MARK2       BITMAP                  "res\\bmp00009.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME_256 TOOLBAR 30, 30
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_EDIT_UNDO
+    BUTTON      ID_ZOOM_WND
+    BUTTON      ID_EDIT_REDO
+    SEPARATOR
+    BUTTON      ID_EDIT_COMBINE
+    BUTTON      ID_EDIT_UNCOMBINE
+    BUTTON      ID_EDIT_GROUP
+    BUTTON      ID_EDIT_UNGROUP
+    SEPARATOR
+    BUTTON      ID_EDIT_ADDLAYER
+    BUTTON      ID_EDIT_DELLAYER
+    SEPARATOR
+    BUTTON      ID_EDIT_HATCHENT
+    BUTTON      ID_FILE_SYSTEM
+    BUTTON      ID_MODIFY_RESORT
+    SEPARATOR
+    BUTTON      ID_3DFUN_RUN
+    SEPARATOR
+    BUTTON      ID_ZOOM_PAN
+    BUTTON      ID_ZOOM_IN
+    BUTTON      ID_ZOOM_OUT
+    BUTTON      ID_ZOOM_ALL
+    BUTTON      ID_ZOOM_PICK
+    BUTTON      ID_ZOOM_WORKSPACE
+    BUTTON      ID_TEST_BUTTON3
+END
+
+IDR_SORT TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_SORT_MENU
+    BUTTON      ID_NEW_FOLDER
+END
+
+IDR_EXPLORER TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_PROPERTIES
+END
+
+IDR_MENU_IMAGES TOOLBAR 30, 30
+BEGIN
+    BUTTON      ID_WINDOW_MANAGER
+    SEPARATOR
+    BUTTON      ID_WINDOW_CASCADE
+    BUTTON      ID_WINDOW_TILE_HORZ
+    BUTTON      ID_TOOLS_MACRO
+    BUTTON      ID_SORTING_SORTALPHABETIC
+    BUTTON      ID_SORTING_SORTBYTYPE
+    BUTTON      ID_SORTING_SORTBYACCESS
+    BUTTON      ID_SORTING_GROUPBYTYPE
+END
+
+IDR_PROPERTIES TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_EXPAND_ALL
+    BUTTON      ID_SORTPROPERTIES
+    BUTTON      ID_PROPERTIES1
+    BUTTON      ID_PROPERTIES2
+END
+
+IDR_TOOLBAR_CMDNODE TOOLBAR 30, 30
+BEGIN
+    BUTTON      ID_CMD_NODE_ADD
+    BUTTON      ID_CMD_NODE_DEL
+    BUTTON      ID_CMD_NODE_UNITE
+    BUTTON      ID_CMD_NODE_SEPA
+    SEPARATOR
+    BUTTON      ID_CMD_NODE_TOLINE
+    BUTTON      ID_CMD_NODE_TOARC
+    SEPARATOR
+    BUTTON      ID_CMD_NODE_TOBEZ
+    BUTTON      ID_CMD_NODE_SHARP
+    BUTTON      ID_CMD_NODE_SMOOTH
+    BUTTON      ID_CMD_NODE_SYS
+    BUTTON      ID_CMD_NODE_DIR
+    BUTTON      ID_CMD_NODE_CLOSE
+    BUTTON      ID_CMD_NODE_ALIGN
+END
+
+IDR_TOOLBAR_DRAW TOOLBAR 30, 30
+BEGIN
+    BUTTON      ID_DRAW_PICK
+    BUTTON      ID_DRAW_NODE
+    BUTTON      ID_DRAW_POINT
+    BUTTON      ID_DRAW_LINE
+    BUTTON      ID_DRAW_PLINE
+    BUTTON      ID_DRAW_RECT
+    BUTTON      ID_DRAW_CIR
+    BUTTON      ID_DRAW_ELP
+    BUTTON      ID_DRAW_POLYGON
+    BUTTON      ID_DRAW_SPIRAL
+    BUTTON      ID_DRAW_TEXT
+    BUTTON      ID_DRAW_BARCODE
+    BUTTON      ID_DRAW_BARCODE1
+    BUTTON      ID_DRAW_BITMAP
+    BUTTON      ID_DRAW_VECTORFILE
+    BUTTON      ID_DRAW_TIME
+    BUTTON      ID_DRAW_INPUT
+    BUTTON      ID_DRAW_OUTPUT
+END
+
+IDR_TOOLBAR_CMDPICK TOOLBAR 30, 30
+BEGIN
+    BUTTON      ID_CMD_PICKALL
+    SEPARATOR
+    BUTTON      ID_CMD_PICKINVERT
+    BUTTON      ID_CMD_PICKDEL
+    SEPARATOR
+    BUTTON      ID_CMD_PICKLOCK
+    BUTTON      ID_CMD_PICKUNLOCK
+    BUTTON      ID_CMD_PICKUNLOCKALL
+    SEPARATOR
+    BUTTON      ID_CMD_PICKCEN
+    BUTTON      ID_CMD_PICKCENX
+    BUTTON      ID_CMD_PICKCENY
+    SEPARATOR
+    BUTTON      ID_CMD_PICKMIRRORX
+    SEPARATOR
+    BUTTON      ID_CMD_PICKMIRRORY
+    BUTTON      ID_MODIFY_ARRAY
+    BUTTON      ID_MODIFY_ROTATE
+    BUTTON      ID_PICK_BYPEN
+END
+
+IDR_TOOLBAR_ZOOM3D TOOLBAR 30, 30
+BEGIN
+    BUTTON      ID_3DVIEW_WIRE
+    BUTTON      ID_3DVIEW_RENDER
+    BUTTON      ID_3DVIEW_RENDERLINE
+    BUTTON      ID_3DVIEW_HIDEMESH
+    BUTTON      ID_ZOOM_3D_UP
+    BUTTON      ID_ZOOM_3D_DN
+    BUTTON      ID_ZOOM_3D_LEFT
+    BUTTON      ID_ZOOM_3D_RIGHT
+    BUTTON      ID_ZOOM_3D_FR
+    BUTTON      ID_ZOOM_3D_BACK
+    BUTTON      ID_ZOOM_3D_ISO
+END
+
+IDR_TOOLBAR_3DFUN TOOLBAR 30, 30
+BEGIN
+    BUTTON      ID_3DFUN_MESH3D
+    BUTTON      ID_3DFUN_BASESHAPE
+    BUTTON      ID_3DFUN_SLICEMESH
+    BUTTON      ID_3DFUN_PRJ
+    BUTTON      ID_3DFUN_BMPTOMESH
+    BUTTON      ID_3DFUN_ROTATEMESH
+    BUTTON      ID_3DFUN_MOVEMESH
+    BUTTON      ID_3DFUN_FREEPAINT
+END
+
+IDR_TOOLBAR_ZOOM TOOLBAR 30, 30
+BEGIN
+    BUTTON      ID_ZOOM_WND
+    BUTTON      ID_ZOOM_PAN
+    BUTTON      ID_ZOOM_IN
+    BUTTON      ID_ZOOM_OUT
+    BUTTON      ID_ZOOM_ALL
+    BUTTON      ID_ZOOM_PICK
+    BUTTON      ID_ZOOM_WORKSPACE
+END
+
+IDR_TOOLBAR_ALIGN TOOLBAR 30, 30
+BEGIN
+    BUTTON      ID_ALIGN_LEFT
+    BUTTON      ID_ALIGN_HCENTER
+    BUTTON      ID_ALIGN_RIGHT
+    BUTTON      ID_ALIGN_TOP
+    BUTTON      ID_ALIGN_VCENTER
+    BUTTON      ID_ALIGN_BOTTOM
+    BUTTON      ID_ALIGN_CENTER
+END
+
+IDR_TOOLBAR_MARK2 TOOLBAR 30, 30
+BEGIN
+    BUTTON      ID_TOOLBAR_RED
+    SEPARATOR
+    BUTTON      ID_TOOLBAR_MARK3
+END
+
+IDR_TOOLBAR_DRAW2 TOOLBAR 30, 30
+BEGIN
+    BUTTON      ID_DRAW_PICK
+    BUTTON      ID_DRAW_NODE
+    BUTTON      ID_DRAW_POINT
+    BUTTON      ID_DRAW_LINE
+    BUTTON      ID_DRAW_PLINE
+    BUTTON      ID_DRAW_RECT
+    BUTTON      ID_DRAW_CIR
+    BUTTON      ID_DRAW_ELP
+    BUTTON      ID_DRAW_POLYGON
+    BUTTON      ID_DRAW_SPIRAL
+    BUTTON      ID_DRAW_TEXT
+    BUTTON      ID_DRAW_BARCODE
+    BUTTON      ID_DRAW_BARCODE1
+    BUTTON      ID_DRAW_BITMAP
+    BUTTON      ID_DRAW_VECTORFILE
+    BUTTON      ID_DRAW_TIME
+    BUTTON      ID_DRAW_INPUT
+    BUTTON      ID_DRAW_OUTPUT
+END
+
+IDR_TOOLBAR_SYS TOOLBAR 30, 30
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_EDIT_UNDO
+    BUTTON      ID_EDIT_REDO
+    SEPARATOR
+    BUTTON      ID_ZOOM_IN
+    BUTTON      ID_ZOOM_OUT
+    BUTTON      ID_ZOOM_PICK
+    BUTTON      ID_ZOOM_WORKSPACE
+    BUTTON      ID_EDIT_COMBINE
+    BUTTON      ID_EDIT_UNCOMBINE
+    BUTTON      ID_EDIT_GROUP
+    BUTTON      ID_EDIT_UNGROUP
+    SEPARATOR
+    BUTTON      ID_EDIT_ADDLAYER
+    BUTTON      ID_EDIT_DELLAYER
+    SEPARATOR
+    BUTTON      ID_EDIT_HATCHENT
+    BUTTON      ID_FILE_SYSTEM
+    BUTTON      ID_MODIFY_RESORT
+    SEPARATOR
+    BUTTON      ID_3DFUN_RUN
+    SEPARATOR
+    BUTTON      ID_ZOOM_WND
+    BUTTON      ID_ZOOM_PAN
+    BUTTON      ID_ZOOM_ALL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    MENUITEM SEPARATOR
+    POPUP "File(&F)"
+    BEGIN
+        MENUITEM "New(&N)\tCtrl+N",             ID_FILE_NEW
+        MENUITEM "Open(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM "Save(&S)\tCtrl+S",            ID_FILE_SAVE
+        MENUITEM "Save as(&A)...",              ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "System param",                ID_FILE_SYSTEM
+        MENUITEM "Project param",               ID_FILE_PROJECTPARAM
+        MENUITEM "Machine parameter",           ID_FILE_MACHINEPARAMETER
+        MENUITEM SEPARATOR
+        MENUITEM "Recent files",                ID_FILE_MRU_FILE1
+        MENUITEM SEPARATOR
+        MENUITEM "Exit(&X)",                    ID_APP_EXIT
+    END
+    POPUP "Edit(&E)"
+    BEGIN
+        MENUITEM "Undo(&U)\tCtrl+Z",            ID_EDIT_UNDO
+        MENUITEM "Redo(&R)\tCtrl+Y",            ID_EDIT_REDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cut(&T)\tCtrl+X",             ID_EDIT_CUT
+        MENUITEM "Copy(&C)\tCtrl+C",            ID_EDIT_COPY
+        MENUITEM "Paste(&P)\tCtrl+V",           ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "Combine",                     32785
+        MENUITEM "UnCombine",                   32786
+        MENUITEM "Group",                       32787
+        MENUITEM "UnGroup",                     32788
+        MENUITEM "UnGroupText",                 ID_EDIT_UNGROUPTEXT
+        MENUITEM SEPARATOR
+        MENUITEM "New Layer",                   32789
+        MENUITEM "Delete Layer",                32790
+        MENUITEM SEPARATOR
+        MENUITEM "Hatch",                       32791
+        MENUITEM SEPARATOR
+        POPUP "Pick"
+        BEGIN
+            MENUITEM "PickAll",                     32792
+            MENUITEM "PickInvert",                  32793
+            MENUITEM "PickDel",                     32794
+            MENUITEM "Lock",                        32795
+            MENUITEM "UnLock",                      32796
+            MENUITEM "UnLockAll",                   32797
+            MENUITEM "PickCen",                     32798
+            MENUITEM "PickCenX",                    32799
+            MENUITEM "PickCenY",                    32800
+            MENUITEM "MirrorX",                     32801
+            MENUITEM "MirrorY",                     32802
+            MENUITEM "Rotate",                      ID_MODIFY_ROTATE
+        END
+        POPUP "Node"
+        BEGIN
+            MENUITEM "add",                         32803
+            MENUITEM "del",                         32804
+            MENUITEM "unite",                       32805
+            MENUITEM "sepa",                        32806
+            MENUITEM "toline",                      32807
+            MENUITEM "toArc",                       32808
+            MENUITEM "toBez",                       32809
+            MENUITEM "Sharp",                       32810
+            MENUITEM "Smooth",                      32811
+            MENUITEM "Sys",                         32812
+            MENUITEM "CurveDir",                    32813
+            MENUITEM "Close",                       32814
+            MENUITEM "Algin",                       32815
+        END
+    END
+    POPUP "Draw(&D)"
+    BEGIN
+        MENUITEM "Pick",                        32816
+        MENUITEM "Node",                        32817
+        MENUITEM SEPARATOR
+        MENUITEM "Point",                       32818
+        MENUITEM "Line",                        32819
+        MENUITEM "Curve",                       32820
+        MENUITEM "Rect",                        32821
+        MENUITEM "Circle",                      32822
+        MENUITEM "Ellpise",                     32823
+        MENUITEM "Polygon",                     32824
+        MENUITEM "Text",                        32825
+        MENUITEM "Barcode",                     32826
+        MENUITEM "Bitmap File",                 32827
+        MENUITEM "Vector File",                 32828
+        MENUITEM "Timer",                       32829
+        MENUITEM "Input IO",                    32830
+        MENUITEM "Output IO",                   32831
+        MENUITEM "Spiral",                      32832
+        MENUITEM "Axis",                        ID_DRAW_EXTAXIS
+        MENUITEM "Index",                       ID_DRAW_INDEX
+        MENUITEM "Input Jump",                  ID_DRAW_INPUTJUMP
+        MENUITEM "CCD",                         ID_DRAW_CCD
+        MENUITEM "Encoder distance",            ID_DRAW_ENCODERDISTANCE
+        MENUITEM "GuideLine box",               ID_DRAW_GUIDELINEBOX
+        MENUITEM "slc file",                    32834
+    END
+    POPUP "Modify(&M)"
+    BEGIN
+        MENUITEM "Array",                       ID_MODIFY_ARRAY
+        MENUITEM "Array Text",                  ID_MODIFY_ARRAYTEXT
+        MENUITEM "Offset Curve",                ID_MODIFY_OFFSETCURVE
+        MENUITEM "To curve",                    ID_MODIFY_TOCURVE
+        MENUITEM "Curve to points",             ID_MODIFY_CURVETOPOINTS
+        MENUITEM "Trim",                        ID_MODIFY_TRIM
+        MENUITEM "Resort",                      ID_MODIFY_RESORT
+        POPUP "Curve edit"
+        BEGIN
+            MENUITEM "Auto connect",                ID_CURVEEDIT_AUTOCONNECT
+            MENUITEM "Bread cross point",           ID_CURVEEDIT_BREADCROSSPOINT
+        END
+        POPUP "Distortion"
+        BEGIN
+            MENUITEM "Weld",                        ID_DISTORTION_WELD
+            MENUITEM "Trim",                        ID_DISTORTION_TRIM
+            MENUITEM "Intersect",                   ID_DISTORTION_INTERSECT
+        END
+        POPUP "Align"
+        BEGIN
+            MENUITEM "Left",                        ID_ALIGN_LEFT
+            MENUITEM "H center",                    ID_ALIGN_HCENTER
+            MENUITEM "right",                       ID_ALIGN_RIGHT
+            MENUITEM SEPARATOR
+            MENUITEM "Top",                         ID_ALIGN_TOP
+            MENUITEM "V center",                    ID_ALIGN_VCENTER
+            MENUITEM "Bottom",                      ID_ALIGN_BOTTOM
+            MENUITEM "Center",                      ID_ALIGN_CENTER
+        END
+        POPUP "Mesh edit"
+        BEGIN
+            MENUITEM "Merge close vertices",        ID_MESHEDIT_MERGECLOSEVERTICES
+        END
+    END
+    POPUP "View(&V)"
+    BEGIN
+        MENUITEM "Syetem(&T)",                  ID_VIEW_TOOLBAR
+        MENUITEM "status(&S)",                  ID_VIEW_STATUS_BAR
+        MENUITEM "Draw",                        32837
+        MENUITEM "Zoom3D",                      32839
+        MENUITEM "Align",                       ID_VIEW_ALIGN
+        MENUITEM "EntList",                     32840
+        MENUITEM "EntProp",                     32841
+        MENUITEM "PenBox",                      32842
+        MENUITEM "Mark",                        32843
+        MENUITEM SEPARATOR
+        MENUITEM "Show ruler",                  32844
+        MENUITEM "Show grid",                   32845
+        MENUITEM SEPARATOR
+        MENUITEM "Snap Grid",                   32846
+        MENUITEM "Snap guildline",              ID_VIEW_SNAPGUILDLINE
+        MENUITEM "Snap object",                 ID_VIEW_SNAPOBJECT
+        MENUITEM "Snap mesh vertex",            ID_VIEW_SNAPMESHVERTEX
+        MENUITEM SEPARATOR
+        POPUP "Zoom"
+        BEGIN
+            MENUITEM "ZoomWnd",                     32847
+            MENUITEM "ZoomPan",                     32848
+            MENUITEM "ZoomIn",                      32849
+            MENUITEM "ZoomOut",                     32850
+            MENUITEM "ZoomAll",                     32851
+            MENUITEM "ZoomPick",                    32852
+            MENUITEM "ZoomWS",                      32853
+        END
+        POPUP "Application appearance"
+        BEGIN
+            MENUITEM "Windows 2000(&2)",            ID_VIEW_APPLOOK_WIN_2000
+            MENUITEM "Office XP(&X)",               ID_VIEW_APPLOOK_OFF_XP
+            MENUITEM "Windows XP(&W)",              ID_VIEW_APPLOOK_WIN_XP
+            MENUITEM "Office 2003(&3)",             ID_VIEW_APPLOOK_OFF_2003
+            MENUITEM "Visual Studio.NET 2005(&5)",  ID_VIEW_APPLOOK_VS_2005
+            MENUITEM "VS2008",                      ID_VIEW_APPLOOK_VS_2008
+            POPUP "Office 2007(&7)"
+            BEGIN
+                MENUITEM "蓝色样式(&B)",                    ID_VIEW_APPLOOK_OFF_2007_BLUE
+                MENUITEM "黑色样式(&L)",                    ID_VIEW_APPLOOK_OFF_2007_BLACK
+                MENUITEM "银色样式(&S)",                    ID_VIEW_APPLOOK_OFF_2007_SILVER
+                MENUITEM "水绿色样式(&A)",                   ID_VIEW_APPLOOK_OFF_2007_AQUA
+            END
+        END
+    END
+    POPUP "Lasrer"
+    BEGIN
+        MENUITEM "Laser Material Process",      ID_LASRER_MATERIALPROCESS
+        MENUITEM "Laser monitor",               ID_LASRER_LASERMONITOR
+    END
+    POPUP "Help(&H)"
+    BEGIN
+        MENUITEM "About EzCad3(&A)...",         ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP_EDIT MENU
+BEGIN
+    POPUP "编辑"
+    BEGIN
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+    END
+END
+
+IDR_POPUP_SORT MENU
+BEGIN
+    POPUP "排序"
+    BEGIN
+        MENUITEM "按字母顺序排序(&S)",                 ID_SORTING_SORTALPHABETIC
+        MENUITEM "按类型排序(&T)",                   ID_SORTING_SORTBYTYPE
+        MENUITEM "按访问排序(&E)",                   ID_SORTING_SORTBYACCESS
+        MENUITEM "按类型分组(&Y)",                   ID_SORTING_GROUPBYTYPE
+    END
+END
+
+IDR_POPUP_EXPLORER MENU
+BEGIN
+    POPUP "资源管理器"
+    BEGIN
+        MENUITEM "打开(&O)",                      ID_OPEN
+        MENUITEM "打开方式(&W)....",                ID_OPEN_WITH
+        MENUITEM SEPARATOR
+        MENUITEM "编译(&C)",                      ID_DUMMY_COMPILE
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "移除(&R)",                      ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "属性(&P)...",                   ID_PROPERTIES
+    END
+END
+
+IDR_OUTPUT_POPUP MENU
+BEGIN
+    POPUP "弹出项"
+    BEGIN
+        MENUITEM "复制(&C)",                      ID_EDIT_COPY
+        MENUITEM "清除(&C)",                      ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "隐藏(&H)",                      ID_VIEW_OUTPUTWND
+    END
+END
+
+IDR_HELP_MENU MENU
+BEGIN
+    MENUITEM "关于 EzCad3_VS2015(&A)...",     ID_APP_ABOUT
+END
+
+IDR_THEME_MENU MENU
+BEGIN
+    MENUITEM "Office 2007 (蓝色样式)(&B)",      ID_VIEW_APPLOOK_OFF_2007_BLUE
+    MENUITEM "Office 2007 (黑色样式)(&L)",      ID_VIEW_APPLOOK_OFF_2007_BLACK
+    MENUITEM "Office 2007 (银色样式)(&S)",      ID_VIEW_APPLOOK_OFF_2007_SILVER
+    MENUITEM "Office 2007 (水绿色样式)(&A)",     ID_VIEW_APPLOOK_OFF_2007_AQUA
+    MENUITEM "Windows 7(&D)",               ID_VIEW_APPLOOK_WINDOWS_7
+END
+
+IDR_MENU_PEN MENU
+BEGIN
+    POPUP "pen"
+    BEGIN
+        MENUITEM "Apply to pick",               ID_PEN_APPLYTOPICK
+        MENUITEM "Reset all pen",               ID_PEN_RESETALLPENS
+        MENUITEM "Load default pen",            ID_PEN_LOADPENBOXFROMDEFAULT
+        MENUITEM "Set as default pen",          ID_PEN_SETDEFAULTPENSPARAM
+    END
+END
+
+IDR_MENU_DRAW MENU
+BEGIN
+    POPUP "draw"
+    BEGIN
+        MENUITEM "finsih",                      32779
+        MENUITEM "close",                       32778
+        MENUITEM "coor",                        32777
+    END
+END
+
+IDR_MENU_ORDER MENU
+BEGIN
+    POPUP "order"
+    BEGIN
+        MENUITEM "moveprev",                    ID_ORDER_MOVEPREV
+        MENUITEM "movenext",                    ID_ORDER_MOVENEXT
+        MENUITEM "movetop",                     ID_ORDER_MOVETOP
+        MENUITEM "movebottom",                  ID_ORDER_MOVEBOTTOM
+        MENUITEM "Moveindex",                   ID_ORDER_MOVEINDEX
+    END
+END
+
+IDR_MENU_PICK MENU
+BEGIN
+    POPUP "pick"
+    BEGIN
+        MENUITEM "cut",                         ID_EDIT_CUT
+        MENUITEM "copy",                        ID_EDIT_COPY
+        MENUITEM "paste",                       ID_EDIT_PASTE
+    END
+END
+
+IDR_MENU_SORT MENU
+BEGIN
+    POPUP "SORT"
+    BEGIN
+        MENUITEM "Sort by x",                   ID_RESORT_SORTBYX
+        MENUITEM "Sort by y",                   ID_RESORT_SORTBYY
+        MENUITEM "Sort reverse",                ID_RESORT_SORTREVERSE
+        MENUITEM "Finish",                      ID_RESORT_FINISH
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_F7,          ID_VIEW_SANPGRID,       VIRTKEY, NOINVERT
+    VK_F8,          ID_VIEW_SNAPGUILDLINE,  VIRTKEY, NOINVERT
+    VK_F9,          ID_VIEW_SNAPOBJECT,     VIRTKEY, NOINVERT
+    "Y",            ID_EDIT_REDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_PENBOX DIALOGEX 0, 0, 144, 346
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_BUTTON_PEN0,"Button",BS_OWNERDRAW | WS_TABSTOP,1,123,16,16
+    CONTROL         "",IDC_BUTTON_PEN1,"Button",BS_OWNERDRAW | WS_TABSTOP,18,123,16,16
+    CONTROL         "",IDC_BUTTON_PEN2,"Button",BS_OWNERDRAW | WS_TABSTOP,35,123,16,16
+    CONTROL         "",IDC_BUTTON_PEN3,"Button",BS_OWNERDRAW | WS_TABSTOP,52,123,16,16
+    CONTROL         "",IDC_BUTTON_PEN4,"Button",BS_OWNERDRAW | WS_TABSTOP,69,123,16,16
+    CONTROL         "",IDC_BUTTON_PEN5,"Button",BS_OWNERDRAW | WS_TABSTOP,86,123,16,16
+    CONTROL         "",IDC_BUTTON_PEN6,"Button",BS_OWNERDRAW | WS_TABSTOP,103,123,16,16
+    CONTROL         "",IDC_BUTTON_PEN7,"Button",BS_OWNERDRAW | WS_TABSTOP,120,123,16,16
+    CONTROL         "",IDC_LIST2,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,2,2,133,109,WS_EX_CLIENTEDGE
+    CONTROL         "",IDC_MFCPROPERTYGRID2,"MfcPropertyGrid",WS_BORDER | 0x100,2,141,129,157
+    PUSHBUTTON      "Advance...",IDC_BUTTON_ADVANCE,3,327,65,16
+    PUSHBUTTON      "Param lib",IDC_BUTTON_PARAMLIB,70,327,65,16
+    PUSHBUTTON      "",IDC_BUTTON_LISTONOFF,2,110,133,9,BS_ICON | BS_VCENTER
+END
+
+IDD_DIALOG_SELUSER DIALOGEX 0, 0, 193, 107
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,43,86,50,14
+    PUSHBUTTON      "取消",IDCANCEL,101,86,50,14
+    LTEXT           "Static",IDC_STATIC_USER,15,16,19,8
+    COMBOBOX        IDC_COMBO_USER,59,14,107,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Static",IDC_STATIC_PSW,15,36,19,8
+    EDITTEXT        IDC_EDIT_PSW,60,33,106,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_ENTLIST DIALOGEX 0, 0, 120, 134
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LISTCTRL_ENT,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,6,16,105,89,WS_EX_CLIENTEDGE
+END
+
+IDD_DIALOG_SPLASH DIALOGEX 0, 0, 386, 260
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 286, 157
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 Ezcad3"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "Ezcad3.0.0 版",IDC_SOFTVERSION,53,14,114,8,SS_NOPREFIX
+    LTEXT           "Bjjcz",IDC_STATIC_COMPANY,53,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,117,135,50,14,WS_GROUP
+    LTEXT           "Warning: this computer program is protected by copyright law and international treaties.",IDC_ABOUT_LAW,14,66,260,57
+    CONTROL         "<a>www.bjjcz.com</a>",IDC_SYSLINK1,"SysLink",WS_TABSTOP,54,38,134,14
+    DEFPUSHBUTTON   "",IDC_BUTTON_ISSUE,192,21,70,26,WS_GROUP
+END
+
+IDD_DIALOG_SYSTEMPARAM DIALOGEX 0, 0, 398, 258
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,341,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,341,24,50,14
+    CONTROL         "",IDC_TREE_SYSPARAM,"SysTreeView32",TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP,7,7,125,244
+    LTEXT           "静态",IDC_STATIC_PARAM,135,7,201,244
+END
+
+IDD_DIALOG_SYS_WORKSPACE DIALOGEX 0, 0, 174, 173
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "选中1",IDC_CHECK_SHOW,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,8,102,10
+    CONTROL         "选中1",IDC_CHECK_CIRCLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,23,102,10
+    CONTROL         "选中1",IDC_CHECK_CROSSLINE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,38,102,10
+    GROUPBOX        "静态",IDC_STATIC_LEFTCORNER,8,53,144,51
+    EDITTEXT        IDC_EDIT_LB_X,60,66,42,14,ES_AUTOHSCROLL
+    LTEXT           "X",IDC_STATIC,18,69,39,8
+    LTEXT           "静态",IDC_STATIC_UNIT1,110,69,32,8
+    EDITTEXT        IDC_EDIT_LB_Y,60,81,42,14,ES_AUTOHSCROLL
+    LTEXT           "Y",IDC_STATIC,18,84,39,8
+    LTEXT           "静态",IDC_STATIC_UNIT2,110,84,32,8
+    GROUPBOX        "静态",IDC_STATIC_SIZE,8,110,144,51
+    EDITTEXT        IDC_EDIT_LEN,60,123,42,14,ES_AUTOHSCROLL
+    LTEXT           "静态",IDC_STATIC_LENGTH,18,126,39,8
+    LTEXT           "静态",IDC_STATIC_UNIT3,110,126,32,8
+    EDITTEXT        IDC_EDIT_WID,60,138,42,14,ES_AUTOHSCROLL
+    LTEXT           "静态",IDC_STATIC_WIDTH,18,142,39,8
+    LTEXT           "静态",IDC_STATIC_UNIT4,110,142,32,8
+END
+
+IDD_DIALOG_SYS_USER DIALOGEX 0, 0, 180, 182
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "选中1",IDC_CHECK_ENUSER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,11,98,10
+    LTEXT           "静态",IDC_STATIC_USER,8,27,105,8
+    LISTBOX         IDC_LIST_USER,8,38,105,105,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_BUTTON_ADD,121,36,50,21
+    PUSHBUTTON      "Button1",IDC_BUTTON_MODIFY,121,62,50,21
+    PUSHBUTTON      "Button1",IDC_BUTTON_DEL,121,89,50,21
+END
+
+IDD_DIALOG_SYS_MOVEROTATE DIALOGEX 0, 0, 180, 194
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "静态",IDC_STATIC_KEY,8,3,159,64
+    LTEXT           "静态",IDC_STATIC_MOVE,24,16,49,8
+    EDITTEXT        IDC_EDIT_DIST,81,12,40,14,ES_AUTOHSCROLL
+    LTEXT           "静态",IDC_STATIC_UNIT1,126,15,28,8
+    LTEXT           "静态",IDC_STATIC_NUDGESCALE,24,33,49,8
+    EDITTEXT        IDC_EDIT_NUDGESCALE,81,29,40,14,ES_AUTOHSCROLL
+    LTEXT           "静态",IDC_STATIC_ROTATE,24,50,49,8
+    EDITTEXT        IDC_EDIT_ANG,81,46,40,14,ES_AUTOHSCROLL
+    GROUPBOX        "静态",IDC_STATIC_ORIGINWAY,8,70,159,118
+    GROUPBOX        "",IDC_STATIC,37,88,89,39,BS_LEFT
+    LTEXT           "7",IDC_STATIC,37,82,8,8
+    LTEXT           "6",IDC_STATIC,83,82,8,8
+    LTEXT           "5",IDC_STATIC,129,82,8,8
+    LTEXT           "4",IDC_STATIC,129,105,8,8
+    LTEXT           "3",IDC_STATIC,129,127,8,8
+    LTEXT           "2",IDC_STATIC,82,127,8,8
+    LTEXT           "1",IDC_STATIC,37,127,8,8
+    LTEXT           "8",IDC_STATIC,29,105,8,8
+    LTEXT           "0",IDC_STATIC,82,104,8,8
+    LTEXT           "静态",IDC_STATIC_PTNO,32,140,67,8
+    EDITTEXT        IDC_EDIT_PTNUMBER,103,137,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_X1,103,153,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Y1,103,169,40,14,ES_AUTOHSCROLL
+    LTEXT           "X",IDC_STATIC,89,157,8,8
+    LTEXT           "Y",IDC_STATIC,89,172,8,8
+    LTEXT           "静态",IDC_STATIC_ANG,125,49,17,8
+END
+
+IDD_DIALOG_SYS_LANG DIALOGEX 0, 0, 180, 182
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO_LANG,8,8,147,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "静态",IDC_STATIC_LANGUAGE,8,25,147,75
+END
+
+IDD_DIALOG_SYS_GENERAL DIALOGEX 0, 0, 184, 238
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "静态",IDC_STATIC_UNIT,7,10,56,8
+    LTEXT           "静态",IDC_STATIC_PASTE_X,7,26,56,8
+    LTEXT           "静态",IDC_STATIC_PASTE_Y,7,41,56,8
+    COMBOBOX        IDC_COMBO_UNIT,72,7,48,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_PASTEX,72,23,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASTEY,72,39,48,12,ES_AUTOHSCROLL
+    LTEXT           "静态",IDC_STATIC_UNIT1,122,25,36,8
+    LTEXT           "静态",IDC_STATIC_UNIT2,122,41,36,8
+    GROUPBOX        "静态",IDC_STATIC_GRID,7,54,153,41
+    CONTROL         "选中1",IDC_CHECK_SHOWGRID,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,66,84,10
+    LTEXT           "静态",IDC_STATIC_GRIG,16,80,56,8
+    EDITTEXT        IDC_EDIT_GRID,72,77,48,12,ES_AUTOHSCROLL
+    LTEXT           "静态",IDC_STATIC_UNIT3,122,79,36,8
+    GROUPBOX        "静态",IDC_STATIC_RUNSTART,7,133,155,35
+    EDITTEXT        IDC_EDIT_STARTRUN,16,146,116,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_STARTRUN,133,146,24,14
+    GROUPBOX        "静态",IDC_STATIC_ENDRUN,7,171,155,35
+    EDITTEXT        IDC_EDIT_ENDRUN,16,184,116,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_ENDRUN,133,184,24,14
+    CONTROL         "Show fast",IDC_CHECK_SHOWFAST,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,209,84,10
+    CONTROL         "Show dir",IDC_CHECK_SHOWDIR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,219,84,10
+    LTEXT           "Max thread count",IDC_STATIC_MAXTHREAD,7,102,63,8
+    EDITTEXT        IDC_EDIT_MAXTHREAD,72,99,48,15,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN_THREAD,"msctls_updown32",UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,122,98,10,14
+    LTEXT           "(1-128)",IDC_STATIC_MAXTHREAD2,122,102,30,8
+    LTEXT           "Mesh resolution",IDC_STATIC_MESHSOL,7,119,63,8
+    EDITTEXT        IDC_EDIT_MESHSOL,72,116,48,15,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN_THREAD2,"msctls_updown32",UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,122,115,11,14
+    LTEXT           "(0-3)",IDC_STATIC_MAXTHREAD4,122,119,17,8
+END
+
+IDD_DIALOG_SYS_COLOR DIALOGEX 0, 0, 180, 182
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "静态",IDC_STATIC_BK,8,8,155,35
+    GROUPBOX        "静态",IDC_STATIC_PAPER,7,46,155,35,BS_NOTIFY
+    GROUPBOX        "静态",IDC_STATIC_GUIDE,8,84,155,35
+    GROUPBOX        "静态",IDC_STATIC_GRID,8,122,155,35
+    CONTROL         "",IDC_STATIC_CLR_BK,"Static",SS_BLACKFRAME | SS_NOTIFY | SS_SUNKEN,32,19,105,17
+    CONTROL         "",IDC_STATIC_CLR_PAPER,"Static",SS_BLACKFRAME | SS_NOTIFY | SS_SUNKEN,32,57,105,17
+    CONTROL         "",IDC_STATIC_CLR_GUIDE,"Static",SS_BLACKFRAME | SS_NOTIFY | SS_SUNKEN,32,95,105,17
+    CONTROL         "",IDC_STATIC_CLR_GRID,"Static",SS_BLACKFRAME | SS_NOTIFY | SS_SUNKEN,32,132,105,17
+END
+
+IDD_DIALOG_SYS_BACKUP DIALOGEX 0, 0, 180, 182
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "选中1",IDC_CHECK_BAK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,11,33,10
+    EDITTEXT        IDC_EDIT_SAVETIME,48,8,40,14,ES_AUTOHSCROLL
+    LTEXT           "静态",IDC_STATIC_SAVEBAK,93,11,78,8
+    LTEXT           "静态",IDC_STATIC_EXPLAIN,8,32,156,79
+END
+
+IDD_DIALOG_PSW DIALOGEX 0, 0, 206, 129
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,149,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,149,24,50,14
+    LTEXT           "静态",IDC_STATIC_NAME,7,10,79,8
+    EDITTEXT        IDC_EDIT_NAME,7,20,79,14,ES_AUTOHSCROLL
+    LTEXT           "静态",1225,7,44,79,8
+    EDITTEXT        IDC_EDIT_PSW_1,7,55,79,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "静态",IDC_STATIC_PSW2,7,78,79,8
+    EDITTEXT        IDC_EDIT_PSW_2,7,89,79,14,ES_PASSWORD | ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_MARKING DIALOGEX 0, 0, 111, 66
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 26, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "取消",IDCANCEL,36,12,38,24
+    LTEXT           "",IDC_STATIC_INFO,7,55,97,8,SS_SUNKEN
+    CONTROL         "",IDC_STATIC_PREV,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,7,7,97,34
+    CTEXT           "",IDC_STATIC_INFO2,7,46,97,8,SS_SUNKEN | NOT WS_VISIBLE
+END
+
+IDD_DIALOG_MARK DIALOGEX 0, 0, 585, 108
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_BORDER
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "F1",IDC_BUTTON_F1,211,2,45,36
+    PUSHBUTTON      "F2",IDC_BUTTON_F2,259,2,45,36
+    PUSHBUTTON      "F3",IDC_BUTTON_F3,307,2,45,36
+    CONTROL         "Continue",IDC_CHECK_CONTINUE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,4,2,48,10
+    CONTROL         "Select",IDC_CHECK_SELECTED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,4,12,48,10
+    CONTROL         "Layer",IDC_CHECK_LAYER2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,4,22,48,10
+    RTEXT           "Part",IDC_STATIC_PART,56,5,17,8
+    EDITTEXT        IDC_EDIT_PART,76,3,40,12,ES_AUTOHSCROLL
+    RTEXT           "Total",IDC_STATIC_TOTAL,56,19,17,8
+    EDITTEXT        IDC_EDIT_TOTAL,76,17,40,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "R",IDC_BUTTON_RESETCOUNT,119,2,18,14
+    EDITTEXT        IDC_EDIT_PARTTIME,140,3,48,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_TOTALTIME,140,17,48,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "F4",IDC_BUTTON_F4,355,2,45,36
+    LTEXT           "0.01",IDC_STATIC_FLYSPEED,455,26,57,8,NOT WS_VISIBLE
+    PUSHBUTTON      "T",IDC_BUTTON_CALC,190,2,18,14
+    CONTROL         "Offline",IDC_CHECK_OFFLINE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,4,32,48,10
+    EDITTEXT        IDC_EDIT_FILEINDEX,76,31,23,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "",IDC_SPIN1,"msctls_updown32",UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,102,30,11,14
+    PUSHBUTTON      "Curves",IDC_BUTTON_GET,403,2,48,16,NOT WS_VISIBLE
+    CONTROL         "",IDC_STATIC_MOTORPANEL,"Static",SS_ENHMETAFILE | SS_NOTIFY | NOT WS_VISIBLE | WS_TABSTOP,0,45,581,59
+    CONTROL         "Red contour",IDC_CHECK_REDCONTOUR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,139,31,66,10
+    PUSHBUTTON      "Fly speed",IDC_BUTTON_FLYSPEED,403,22,48,16,NOT WS_VISIBLE
+    CONTROL         "",IDC_STATIC_LAMP_READY,"Static",SS_BLACKFRAME | SS_NOTIFY | WS_TABSTOP,456,4,11,11
+    LTEXT           "Ready",IDC_STATIC_READY,471,5,27,8
+    PUSHBUTTON      "Power",IDC_BUTTON_POWER,517,2,48,16,NOT WS_VISIBLE
+    CONTROL         "",IDC_STATIC_LAMP_POWER,"Static",SS_BLACKFRAME | SS_NOTIFY | WS_TABSTOP,504,4,11,11
+    PUSHBUTTON      "",IDC_BUTTON_CAMERAONOFF,518,19,22,19,BS_ICON | BS_VCENTER | NOT WS_VISIBLE
+END
+
+IDD_DIALOG_REDLIGHT DIALOGEX 0, 0, 109, 62
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 26, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "取消",IDCANCEL,34,14,38,19
+    LTEXT           "",IDC_STATIC_INFO,7,45,95,9,SS_SUNKEN
+END
+
+IDD_DIALOG_LAYERPARAM DIALOGEX 0, 0, 269, 262
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Layer"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_NAME,73,11,113,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,148,241,50,14
+    PUSHBUTTON      "取消",IDCANCEL,202,241,50,14
+    GROUPBOX        "Wait for Input",IDC_STATIC_DIGITALIO,20,48,234,53
+    CONTROL         "",IDC_IN0,"Button",BS_AUTO3STATE | WS_TABSTOP,229,75,9,10
+    CONTROL         "",IDC_IN1,"Button",BS_AUTO3STATE | WS_TABSTOP,216,75,9,10
+    CONTROL         "",IDC_IN2,"Button",BS_AUTO3STATE | WS_TABSTOP,203,75,9,10
+    CONTROL         "",IDC_IN3,"Button",BS_AUTO3STATE | WS_TABSTOP,190,75,9,10
+    CONTROL         "",IDC_IN4,"Button",BS_AUTO3STATE | WS_TABSTOP,177,75,9,10
+    CONTROL         "",IDC_IN5,"Button",BS_AUTO3STATE | WS_TABSTOP,164,75,9,10
+    CONTROL         "",IDC_IN6,"Button",BS_AUTO3STATE | WS_TABSTOP,151,75,9,10
+    CONTROL         "",IDC_IN7,"Button",BS_AUTO3STATE | WS_TABSTOP,138,75,9,10
+    CONTROL         "",IDC_IN8,"Button",BS_AUTO3STATE | WS_TABSTOP,125,75,9,10
+    CONTROL         "",IDC_IN9,"Button",BS_AUTO3STATE | WS_TABSTOP,112,75,9,10
+    CONTROL         "",IDC_IN10,"Button",BS_AUTO3STATE | WS_TABSTOP,99,75,9,10
+    CONTROL         "",IDC_IN11,"Button",BS_AUTO3STATE | WS_TABSTOP,86,75,9,10
+    CONTROL         "",IDC_IN12,"Button",BS_AUTO3STATE | WS_TABSTOP,73,75,9,10
+    CONTROL         "",IDC_IN13,"Button",BS_AUTO3STATE | WS_TABSTOP,60,75,9,10
+    CONTROL         "",IDC_IN14,"Button",BS_AUTO3STATE | WS_TABSTOP,47,75,9,10
+    CONTROL         "",IDC_IN15,"Button",BS_AUTO3STATE | WS_TABSTOP,34,75,9,10
+    LTEXT           "0",IDC_STATIC,231,64,8,8
+    LTEXT           "1",IDC_STATIC,219,64,8,8
+    LTEXT           "2",IDC_STATIC,206,64,8,8
+    LTEXT           "3",IDC_STATIC,193,64,8,8
+    LTEXT           "4",IDC_STATIC,179,64,8,8
+    LTEXT           "5",IDC_STATIC,166,64,8,8
+    LTEXT           "6",IDC_STATIC,153,64,8,8
+    LTEXT           "7",IDC_STATIC,140,64,8,8
+    LTEXT           "8",IDC_STATIC,128,64,8,8
+    LTEXT           "9",IDC_STATIC,114,64,8,8
+    LTEXT           "10",IDC_STATIC,99,64,8,8
+    LTEXT           "11",IDC_STATIC,86,64,8,8
+    LTEXT           "12",IDC_STATIC,73,64,8,8
+    LTEXT           "13",IDC_STATIC,60,64,8,8
+    LTEXT           "14",IDC_STATIC,47,64,8,8
+    LTEXT           "15",IDC_STATIC,34,64,8,8
+    GROUPBOX        "Output when start",IDC_STATIC_STARTOUT,20,106,234,60
+    CONTROL         "",IDC_IN16,"Button",BS_AUTO3STATE | WS_TABSTOP,229,133,9,10
+    CONTROL         "",IDC_IN17,"Button",BS_AUTO3STATE | WS_TABSTOP,216,133,9,10
+    CONTROL         "",IDC_IN18,"Button",BS_AUTO3STATE | WS_TABSTOP,203,133,9,10
+    CONTROL         "",IDC_IN19,"Button",BS_AUTO3STATE | WS_TABSTOP,190,133,9,10
+    CONTROL         "",IDC_IN20,"Button",BS_AUTO3STATE | WS_TABSTOP,177,133,9,10
+    CONTROL         "",IDC_IN21,"Button",BS_AUTO3STATE | WS_TABSTOP,164,133,9,10
+    CONTROL         "",IDC_IN22,"Button",BS_AUTO3STATE | WS_TABSTOP,151,133,9,10
+    CONTROL         "",IDC_IN23,"Button",BS_AUTO3STATE | WS_TABSTOP,138,133,9,10
+    CONTROL         "",IDC_IN24,"Button",BS_AUTO3STATE | WS_TABSTOP,125,133,9,10
+    CONTROL         "",IDC_IN25,"Button",BS_AUTO3STATE | WS_TABSTOP,112,133,9,10
+    CONTROL         "",IDC_IN26,"Button",BS_AUTO3STATE | WS_TABSTOP,99,133,9,10
+    CONTROL         "",IDC_IN27,"Button",BS_AUTO3STATE | WS_TABSTOP,86,133,9,10
+    CONTROL         "",IDC_IN28,"Button",BS_AUTO3STATE | WS_TABSTOP,73,133,9,10
+    CONTROL         "",IDC_IN29,"Button",BS_AUTO3STATE | WS_TABSTOP,60,133,9,10
+    CONTROL         "",IDC_IN30,"Button",BS_AUTO3STATE | WS_TABSTOP,47,133,9,10
+    CONTROL         "",IDC_IN31,"Button",BS_AUTO3STATE | WS_TABSTOP,34,133,9,10
+    LTEXT           "0",IDC_STATIC,231,122,8,8
+    LTEXT           "1",IDC_STATIC,219,122,8,8
+    LTEXT           "2",IDC_STATIC,206,122,8,8
+    LTEXT           "3",IDC_STATIC,193,122,8,8
+    LTEXT           "4",IDC_STATIC,179,122,8,8
+    LTEXT           "5",IDC_STATIC,166,122,8,8
+    LTEXT           "6",IDC_STATIC,153,122,8,8
+    LTEXT           "7",IDC_STATIC,140,122,8,8
+    LTEXT           "8",IDC_STATIC,128,122,8,8
+    LTEXT           "9",IDC_STATIC,114,122,8,8
+    LTEXT           "10",IDC_STATIC,99,122,8,8
+    LTEXT           "11",IDC_STATIC,86,122,8,8
+    LTEXT           "12",IDC_STATIC,73,122,8,8
+    LTEXT           "13",IDC_STATIC,60,122,8,8
+    LTEXT           "14",IDC_STATIC,47,122,8,8
+    LTEXT           "15",IDC_STATIC,34,122,8,8
+    GROUPBOX        "Output when fnish ",IDC_STATIC_STARTOUT2,20,168,234,60
+    CONTROL         "",IDC_IN32,"Button",BS_AUTO3STATE | WS_TABSTOP,229,195,9,10
+    CONTROL         "",IDC_IN33,"Button",BS_AUTO3STATE | WS_TABSTOP,216,195,9,10
+    CONTROL         "",IDC_IN34,"Button",BS_AUTO3STATE | WS_TABSTOP,203,195,9,10
+    CONTROL         "",IDC_IN35,"Button",BS_AUTO3STATE | WS_TABSTOP,190,195,9,10
+    CONTROL         "",IDC_IN36,"Button",BS_AUTO3STATE | WS_TABSTOP,177,195,9,10
+    CONTROL         "",IDC_IN37,"Button",BS_AUTO3STATE | WS_TABSTOP,164,195,9,10
+    CONTROL         "",IDC_IN38,"Button",BS_AUTO3STATE | WS_TABSTOP,151,195,9,10
+    CONTROL         "",IDC_IN39,"Button",BS_AUTO3STATE | WS_TABSTOP,138,195,9,10
+    CONTROL         "",IDC_IN40,"Button",BS_AUTO3STATE | WS_TABSTOP,125,195,9,10
+    CONTROL         "",IDC_IN41,"Button",BS_AUTO3STATE | WS_TABSTOP,112,195,9,10
+    CONTROL         "",IDC_IN42,"Button",BS_AUTO3STATE | WS_TABSTOP,99,195,9,10
+    CONTROL         "",IDC_IN43,"Button",BS_AUTO3STATE | WS_TABSTOP,86,195,9,10
+    CONTROL         "",IDC_IN44,"Button",BS_AUTO3STATE | WS_TABSTOP,73,195,9,10
+    CONTROL         "",IDC_IN45,"Button",BS_AUTO3STATE | WS_TABSTOP,60,195,9,10
+    CONTROL         "",IDC_IN46,"Button",BS_AUTO3STATE | WS_TABSTOP,47,195,9,10
+    CONTROL         "",IDC_IN47,"Button",BS_AUTO3STATE | WS_TABSTOP,34,195,9,10
+    LTEXT           "0",IDC_STATIC,231,184,8,8
+    LTEXT           "1",IDC_STATIC,219,184,8,8
+    LTEXT           "2",IDC_STATIC,206,184,8,8
+    LTEXT           "3",IDC_STATIC,193,184,8,8
+    LTEXT           "4",IDC_STATIC,179,184,8,8
+    LTEXT           "5",IDC_STATIC,166,184,8,8
+    LTEXT           "6",IDC_STATIC,153,184,8,8
+    LTEXT           "7",IDC_STATIC,140,184,8,8
+    LTEXT           "8",IDC_STATIC,128,184,8,8
+    LTEXT           "9",IDC_STATIC,114,184,8,8
+    LTEXT           "10",IDC_STATIC,99,184,8,8
+    LTEXT           "11",IDC_STATIC,86,184,8,8
+    LTEXT           "12",IDC_STATIC,73,184,8,8
+    LTEXT           "13",IDC_STATIC,60,184,8,8
+    LTEXT           "14",IDC_STATIC,47,184,8,8
+    LTEXT           "15",IDC_STATIC,34,184,8,8
+    LTEXT           "Name",IDC_STATIC_NAME,21,13,48,8
+    EDITTEXT        IDC_EDIT_COUNT,73,26,42,12,ES_AUTOHSCROLL
+    LTEXT           "Count",IDC_STATIC_COUNT,21,28,48,8
+    LTEXT           "Delay",IDC_STATIC_DELAY1,33,150,35,8
+    EDITTEXT        IDC_EDIT_DELAY1,73,148,41,12,ES_AUTOHSCROLL
+    LTEXT           "ms",IDC_STATIC,117,150,35,8
+    LTEXT           "Delay",IDC_STATIC_DELAY2,33,212,35,8
+    EDITTEXT        IDC_EDIT_DELAY2,73,210,41,12,ES_AUTOHSCROLL
+    LTEXT           "ms",IDC_STATIC,117,212,35,8
+    CONTROL         "Wait for input",IDC_CHECK_WAITFORINPUT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,34,87,91,10
+END
+
+IDD_DIALOG_LICENSE DIALOGEX 0, 0, 522, 344
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,140,316,110,20
+    PUSHBUTTON      "取消",IDCANCEL,272,316,110,20
+    EDITTEXT        IDC_EDIT1,8,6,506,299,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_DIALOG_LASERMONITOR DIALOGEX 0, 0, 228, 88
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_STATIC_LASER,"Static",SS_ENHMETAFILE | SS_NOTIFY | WS_TABSTOP,0,0,227,88
+END
+
+IDD_DIALOG_LASER_FIBER DIALOGEX 0, 0, 196, 50
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Fiber",IDC_STATIC_FIBER,2,1,190,45
+    LTEXT           "MO",IDC_STATIC,25,12,12,8
+    LTEXT           "AP",IDC_STATIC,25,23,10,8
+    LTEXT           "Laser",IDC_STATIC_LASER,25,34,153,8
+    CONTROL         "",IDC_STATIC_LAMP1,"Static",SS_BLACKFRAME | SS_NOTIFY | WS_TABSTOP,9,11,10,10
+    CONTROL         "",IDC_STATIC_LAMP2,"Static",SS_BLACKFRAME | SS_NOTIFY | WS_TABSTOP,9,22,10,10
+    CONTROL         "",IDC_STATIC_LAMP3,"Static",SS_BLACKFRAME | SS_NOTIFY | WS_TABSTOP,9,33,10,10
+    LTEXT           "0",IDC_STATIC_PW,150,12,31,8
+    PUSHBUTTON      "Button1",IDC_BUTTON_PW,95,9,50,14
+END
+
+IDD_DIALOG_LASER_SPI DIALOGEX 0, 0, 196, 43
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Spi",IDC_STATIC_FIBER,2,1,190,39
+    LTEXT           "Ready",IDC_STATIC_LASER,25,13,146,8
+    CONTROL         "",IDC_STATIC_LAMP1,"Static",SS_BLACKFRAME | SS_NOTIFY | WS_TABSTOP,9,12,10,10
+    PUSHBUTTON      "IO",IDC_BUTTON_MONITOR,23,24,45,12
+END
+
+IDD_DIALOG_MOTIONPANEL DIALOGEX 0, 0, 459, 58
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_BUTTON_DOWN,135,32,22,19,BS_ICON | BS_VCENTER
+    PUSHBUTTON      "",IDC_BUTTON_UP,135,11,22,19,BS_ICON | BS_VCENTER
+    LTEXT           "XYZA:",IDC_STATIC_NAME,116,2,23,8,SS_CENTERIMAGE
+    LTEXT           "0",IDC_STATIC_COOR,144,2,101,8,SS_CENTERIMAGE
+    PUSHBUTTON      "Part height",IDC_BUTTON_PARTHEIGHT,0,16,50,14
+    CONTROL         "0",IDC_STATIC_HEIGHT,"Static",SS_LEFTNOWORDWRAP | SS_CENTERIMAGE | SS_SUNKEN | WS_GROUP,51,17,59,12
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,8,0,451,1
+    LTEXT           "Step",IDC_STATIC_STEP,228,12,33,8
+    EDITTEXT        IDC_EDIT_STEP,227,23,33,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Focus pos",IDC_BUTTON_FOCUS,313,22,54,14
+    CONTROL         "0",IDC_STATIC_FOCUS,"Static",SS_LEFTNOWORDWRAP | SS_CENTERIMAGE | SS_SUNKEN | WS_GROUP,369,23,49,12
+    PUSHBUTTON      "Home",IDC_BUTTON_HOME,261,22,50,14
+    PUSHBUTTON      "",IDC_BUTTON_LEFT,112,22,22,19,BS_ICON | BS_VCENTER
+    PUSHBUTTON      "",IDC_BUTTON_RIGHT,158,22,22,19,BS_ICON | BS_VCENTER
+    PUSHBUTTON      "Split param",IDC_BUTTON_SPLITPARAM,0,30,50,14
+    CONTROL         "0",IDC_STATIC_SPLITPARAM,"Static",SS_LEFTNOWORDWRAP | SS_CENTERIMAGE | SS_SUNKEN | WS_GROUP,51,31,59,12
+    PUSHBUTTON      "",IDC_BUTTON_DOWNZ,181,32,22,19,BS_ICON | BS_VCENTER
+    PUSHBUTTON      "",IDC_BUTTON_UPZ,181,11,22,19,BS_ICON | BS_VCENTER
+    PUSHBUTTON      "Org",IDC_BUTTON_ORG,261,36,50,14
+    CONTROL         "0",IDC_STATIC_ORG,"Static",SS_LEFTNOWORDWRAP | SS_CENTERIMAGE | SS_SUNKEN | WS_GROUP,313,37,49,12
+    PUSHBUTTON      "Go->",IDC_BUTTON_GOORG,226,36,34,14
+    PUSHBUTTON      "",IDC_BUTTON_ACW,204,32,22,19,BS_ICON | BS_VCENTER
+    PUSHBUTTON      "",IDC_BUTTON_ACCW,204,11,22,19,BS_ICON | BS_VCENTER
+    PUSHBUTTON      "Diameter",IDC_BUTTON_PARTDIAMETER,0,2,50,14
+    CONTROL         "0",IDC_STATIC_DIAMETER,"Static",SS_LEFTNOWORDWRAP | SS_CENTERIMAGE | SS_SUNKEN | WS_GROUP,51,3,59,12
+    PUSHBUTTON      "Handwheel",IDC_BUTTON_HANDWHEEL,369,6,50,14
+    PUSHBUTTON      "",IDC_BUTTON_PREVIEW,289,2,22,19,BS_ICON | BS_VCENTER
+    CONTROL         "0",IDC_STATIC_SPLITPARAMY,"Static",SS_LEFTNOWORDWRAP | SS_CENTERIMAGE | SS_SUNKEN | WS_GROUP,51,44,59,12
+    PUSHBUTTON      "",IDC_BUTTON_AUTOFOCUS,265,2,22,19,BS_ICON | BS_VCENTER | NOT WS_VISIBLE
+    PUSHBUTTON      "",IDC_BUTTON_PREVIEW2,313,2,22,19,BS_ICON | BS_VCENTER
+END
+
+IDD_DIALOG_LASER_QCW DIALOGEX 0, 0, 196, 43
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "QCW",IDC_STATIC_FIBER,2,1,190,39
+    LTEXT           "Ready",IDC_STATIC_LASER,24,13,146,8
+    CONTROL         "",IDC_STATIC_LAMP1,"Static",SS_BLACKFRAME | SS_NOTIFY | WS_TABSTOP,9,13,10,10
+    PUSHBUTTON      "Reset",IDC_BUTTON_RESETERR,138,24,45,12
+    LTEXT           "Temp：0℃",IDC_STATIC_TEMP,24,26,82,8
+END
+
+IDD_DIALOG_SPLITPARAM DIALOGEX 0, 0, 333, 255
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,103,228,61,20
+    PUSHBUTTON      "取消",IDCANCEL,169,228,61,20
+    CONTROL         "Keep entity order",IDC_CHECK_KEEPORDER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,155,135,10
+    CONTROL         "Sphere wrap",IDC_CHECK_SPHEREWARP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,129,86,10
+    EDITTEXT        IDC_EDIT_SPLITSIZE,15,57,37,12,ES_AUTOHSCROLL
+    LTEXT           "Split Size",IDC_STATIC_SPLITSIZE,15,46,43,8
+    LTEXT           "unit",IDC_STATIC_UNIT1,57,60,43,8
+    COMBOBOX        IDC_COMBO_MODE,15,29,93,76,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Split mode",IDC_STATIC_SPLITMODE,15,18,43,8
+    CONTROL         "Not cut entity",IDC_CHECK_NOCUTENTITY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,166,112,10
+    CONTROL         "Revolve wrap",IDC_CHECK_REVOLVEWRAP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,140,75,10
+    CONTROL         "Use split box center as marking center",IDC_CHECK_USESPLITBOXCEN,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,177,156,10
+    GROUPBOX        "A",IDC_STATIC_A,230,7,94,68,NOT WS_VISIBLE
+    CONTROL         "360 marking",IDC_CHECK_360,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,241,17,75,10
+    PUSHBUTTON      "Count",IDC_BUTTON_COUNT,240,31,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Angle",IDC_BUTTON_ANGLE,240,47,50,14,NOT WS_VISIBLE
+    LTEXT           "1",IDC_STATIC_COUNT,293,33,27,8,NOT WS_VISIBLE
+    LTEXT           "90",IDC_STATIC_ANGLE,293,49,27,8,NOT WS_VISIBLE
+    GROUPBOX        "X",IDC_STATIC_X,7,7,109,86
+    EDITTEXT        IDC_EDIT_SPLITSIZEY,128,57,37,12,ES_AUTOHSCROLL
+    LTEXT           "Split Size",IDC_STATIC_SPLITSIZE2,133,46,43,8
+    LTEXT           "unit",IDC_STATIC_UNIT5,170,60,43,8
+    COMBOBOX        IDC_COMBO_MODE2,128,29,93,76,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Split mode",IDC_STATIC_SPLITMODE2,128,18,43,8
+    GROUPBOX        "Y",IDC_STATIC_Y,120,7,108,86
+    CONTROL         "Split by guideline box",IDC_CHECK_SPLITBYGUIDELINEBOX,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,188,156,10
+    CONTROL         "Disable Axis A",IDC_CHECK_DISABLEAXISA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,103,86,10
+    CONTROL         "Cylinder wrap",IDC_CHECK_CYLINDERWARP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,118,86,10
+    CONTROL         "Invert",IDC_CHECK_INVERTX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,77,86,10
+    CONTROL         "Invert",IDC_CHECK_INVERTY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,128,77,86,10
+    CONTROL         "Not cut TEXT",IDC_CHECK_NOCUTTEXT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,170,166,112,10
+    CONTROL         "Y First",IDC_CHECK_YFIRST,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,170,155,142,10
+END
+
+IDD_DIALOG_OPENFILE DIALOGEX 0, 0, 378, 158
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CLIPSIBLINGS | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "选中1",IDC_CHECK_SHOWPRE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,7,126,10
+    CONTROL         "Radio1",IDC_RADIO_SAVEALL,"Button",BS_AUTORADIOBUTTON,61,66,98,10
+    CONTROL         "Radio1",IDC_RADIO_SAVEPICK,"Button",BS_AUTORADIOBUTTON,61,81,103,10
+    CONTROL         "",IDC_STATIC_PREVIEW,"Static",SS_BLACKFRAME,7,18,228,128
+    GROUPBOX        "Static",IDC_IMFILE_FILEINFO,243,14,119,131
+    EDITTEXT        IDC_EDIT_FILESIZE,306,29,50,12,ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "Static",IDC_IMFILE_SIZE,249,31,50,8
+    EDITTEXT        IDC_EDIT_FILEVER,306,43,50,12,ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "Static",IDC_IMFILE_VERSION,249,45,50,8
+    EDITTEXT        IDC_EDIT_FILEAUTHOR,306,57,50,12,ES_AUTOHSCROLL
+    RTEXT           "Static",IDC_IMFILE_AUTHOR,249,59,50,8
+    EDITTEXT        IDC_EDIT_FILEDATE,306,72,50,12,ES_AUTOHSCROLL
+    RTEXT           "Static",IDC_IMFILE_DATE,249,74,50,8
+    EDITTEXT        IDC_EDIT_FILECOMMENT,306,86,50,52,ES_AUTOHSCROLL
+    RTEXT           "Static",IDC_IMFILE_COMMENT,249,88,50,8
+    CONTROL         "选中1",IDC_CHECK_SAVEPRE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,25,126,10
+    GROUPBOX        "Static",IDC_STATIC_SAVETYPE,39,44,137,59
+    CONTROL         "选中1",IDC_CHECK_BINDID,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,116,126,10
+END
+
+IDD_DIALOG_ENTBASE DIALOGEX 0, 0, 126, 362
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC_EDGE,2,0,119,86
+    LTEXT           "X",IDC_STATIC,8,20,8,8
+    LTEXT           "Y",IDC_STATIC,8,33,8,8
+    LTEXT           "Z",IDC_STATIC,8,46,8,8
+    EDITTEXT        IDC_EDIT_X,15,17,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Y,15,31,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Z,15,44,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SIZEX,54,17,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SIZEY,54,31,37,12,ES_AUTOHSCROLL
+    CTEXT           "Position",IDC_STATIC_POS,14,6,33,11
+    LTEXT           "Size",IDC_STATIC_SIZE,56,6,51,10
+    PUSHBUTTON      "",IDC_BUTTON_POS,94,40,22,19,BS_ICON | BS_VCENTER
+    PUSHBUTTON      "Array",IDC_BUTTON_ARRAY,5,71,40,13
+    PUSHBUTTON      "IO",IDC_BUTTON_IO,46,71,32,13
+    PUSHBUTTON      "Apply",IDC_BUTTON_APPLY,79,71,40,13
+    CONTROL         "",IDC_STATIC_ENTITY,"Static",SS_ENHMETAFILE | SS_NOTIFY | WS_TABSTOP,0,88,120,268
+    PUSHBUTTON      "",IDC_BUTTON_LOCK,94,20,22,19,BS_ICON | BS_VCENTER
+    EDITTEXT        IDC_EDIT_SIZEZ,54,44,37,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_COUNT,54,57,37,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN1,"msctls_updown32",UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,76,58,11,14
+    LTEXT           "Count",IDC_STATIC_COUNT,94,60,24,8
+    LTEXT           "A",IDC_STATIC_A,8,59,8,8
+    EDITTEXT        IDC_EDIT_A,15,57,37,12,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_SELMARKER DIALOGEX 0, 0, 169, 141
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "取消",IDCANCEL,86,120,50,14
+    DEFPUSHBUTTON   "确定",IDOK,28,120,50,14
+    LISTBOX         IDC_LIST_MARKER,12,11,145,97,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG_LASER_YAG DIALOGEX 0, 0, 196, 50
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "YAG",IDC_STATIC_YAG,2,1,190,45
+    LTEXT           "Ready",-1,25,12,22,8
+    CONTROL         "",IDC_STATIC_LAMP1,"Static",SS_BLACKFRAME | SS_NOTIFY | WS_TABSTOP,9,11,10,10
+    PUSHBUTTON      "ON/OFF",IDC_BUTTON_ENABLE,22,25,50,14
+END
+
+IDD_DIALOG_CAMERASET DIALOGEX 0, 0, 256, 221
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,145,200,50,14
+    PUSHBUTTON      "取消",IDCANCEL,199,200,50,14
+    CONTROL         "Check1",IDC_CHECK_MIRRORX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,7,80,10
+    CONTROL         "Check1",IDC_CHECK_MIRRORY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,108,7,106,10
+    GROUPBOX        "静态",IDC_STATIC_LEFTCORNER,7,72,144,51
+    EDITTEXT        IDC_EDIT_LB_X,59,85,42,14,ES_AUTOHSCROLL
+    LTEXT           "X",IDC_STATIC,17,88,39,8
+    LTEXT           "静态",IDC_STATIC_UNIT1,109,88,32,8
+    EDITTEXT        IDC_EDIT_LB_Y,59,100,42,14,ES_AUTOHSCROLL
+    LTEXT           "Y",IDC_STATIC,17,103,39,8
+    LTEXT           "静态",IDC_STATIC_UNIT2,109,103,32,8
+    GROUPBOX        "静态",IDC_STATIC_SIZE,7,129,144,51
+    EDITTEXT        IDC_EDIT_W,59,142,42,14,ES_AUTOHSCROLL
+    LTEXT           "静态",IDC_STATIC_W,17,145,39,8
+    LTEXT           "静态",IDC_STATIC_UNIT3,109,145,32,8
+    EDITTEXT        IDC_EDIT_H,59,157,42,14,ES_AUTOHSCROLL
+    LTEXT           "静态",IDC_STATIC_H,17,161,39,8
+    LTEXT           "静态",IDC_STATIC_UNIT4,109,161,32,8
+    CONTROL         "",IDC_SLIDER_EXPO,"msctls_trackbar32",TBS_TOP | TBS_NOTICKS | WS_TABSTOP,7,38,187,15
+    LTEXT           "Static",IDC_STATIC_EXPO,7,24,49,8
+    LTEXT           "Static",IDC_STATIC_EXPO2,200,41,34,8
+END
+
+IDD_DIALOG_ISSUE DIALOGEX 0, 0, 339, 217
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_DESC,7,19,325,167,ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN
+    PUSHBUTTON      "取消",IDCANCEL,282,196,50,14
+    LTEXT           "DESCRIPTION",IDC_STATIC_DESCRIPTION,10,9,102,8
+    PUSHBUTTON      "Save to file",IDC_BUTTON_SAVETOFILE,7,196,73,14
+    PUSHBUTTON      "EMAIL",IDC_BUTTON_EMAIL,98,196,73,14,NOT WS_VISIBLE
+END
+
+IDD_DIALOG_DRAWTOOL DIALOGEX 0, 0, 309, 176
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,0,0,1
+ PRODUCTVERSION 3,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "Beijing JCZ technology Co.,Ltd"
+            VALUE "FileDescription", "EzCad3"
+            VALUE "FileVersion", "3.0.0.1"
+            VALUE "InternalName", "EzCad3.exe"
+            VALUE "LegalCopyright", "TODO:  (C) <公司名>。  保留所有权利。"
+            VALUE "OriginalFilename", "EzCad3.exe"
+            VALUE "ProductName", "Ezcad3"
+            VALUE "ProductVersion", "3.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG_PENBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_DIALOG_SELUSER, DIALOG
+    BEGIN
+    END
+
+    IDD_DIALOG_ENTLIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+
+    IDD_DIALOG_SPLASH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 379
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 253
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_DIALOG_SYSTEMPARAM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 391
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 251
+    END
+
+    IDD_DIALOG_SYS_WORKSPACE, DIALOG
+    BEGIN
+        VERTGUIDE, 8
+        VERTGUIDE, 18
+        VERTGUIDE, 110
+        TOPMARGIN, 8
+    END
+
+    IDD_DIALOG_SYS_USER, DIALOG
+    BEGIN
+        VERTGUIDE, 8
+        VERTGUIDE, 32
+        VERTGUIDE, 121
+        TOPMARGIN, 8
+    END
+
+    IDD_DIALOG_SYS_MOVEROTATE, DIALOG
+    BEGIN
+        VERTGUIDE, 8
+        VERTGUIDE, 32
+        VERTGUIDE, 121
+        TOPMARGIN, 8
+    END
+
+    IDD_DIALOG_SYS_LANG, DIALOG
+    BEGIN
+        VERTGUIDE, 8
+        VERTGUIDE, 32
+        VERTGUIDE, 121
+        TOPMARGIN, 8
+    END
+
+    IDD_DIALOG_SYS_GENERAL, DIALOG
+    BEGIN
+        VERTGUIDE, 16
+        VERTGUIDE, 72
+        VERTGUIDE, 122
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 234
+    END
+
+    IDD_DIALOG_SYS_COLOR, DIALOG
+    BEGIN
+        VERTGUIDE, 8
+        VERTGUIDE, 32
+        VERTGUIDE, 121
+        TOPMARGIN, 8
+    END
+
+    IDD_DIALOG_SYS_BACKUP, DIALOG
+    BEGIN
+        VERTGUIDE, 8
+        VERTGUIDE, 32
+        VERTGUIDE, 121
+        TOPMARGIN, 8
+    END
+
+    IDD_DIALOG_PSW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+
+    IDD_DIALOG_MARKING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 104
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 58
+    END
+
+    IDD_DIALOG_MARK, DIALOG
+    BEGIN
+        RIGHTMARGIN, 581
+        BOTTOMMARGIN, 99
+    END
+
+    IDD_DIALOG_REDLIGHT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 102
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 54
+    END
+
+    IDD_DIALOG_LAYERPARAM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 262
+        VERTGUIDE, 73
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 255
+    END
+
+    IDD_DIALOG_LICENSE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 515
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 337
+    END
+
+    IDD_DIALOG_LASERMONITOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 221
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 81
+    END
+
+    IDD_DIALOG_LASER_FIBER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 189
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+
+    IDD_DIALOG_LASER_SPI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 189
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 36
+    END
+
+    IDD_DIALOG_MOTIONPANEL, DIALOG
+    BEGIN
+        RIGHTMARGIN, 452
+        BOTTOMMARGIN, 57
+    END
+
+    IDD_DIALOG_LASER_QCW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 189
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 36
+    END
+
+    IDD_DIALOG_SPLITPARAM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 326
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 248
+    END
+
+    IDD_DIALOG_OPENFILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 371
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 153
+    END
+
+    IDD_DIALOG_ENTBASE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 125
+        BOTTOMMARGIN, 357
+    END
+
+    IDD_DIALOG_SELMARKER, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 139
+    END
+
+    IDD_DIALOG_LASER_YAG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 189
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+
+    IDD_DIALOG_CAMERASET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 214
+    END
+
+    IDD_DIALOG_ISSUE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 332
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 210
+    END
+
+    IDD_DIALOG_DRAWTOOL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG_PENBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_ENTLIST AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_SYS_GENERAL AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_SYS_WORKSPACE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_SYS_MOVEROTATE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_SYS_USER AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_MARK AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_LAYERPARAM AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_MARKING AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_LICENSE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_LASERMONITOR AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_LASER_FIBER AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_SYS_COLOR AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_LASER_SPI AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_MOTIONPANEL AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_LASER_QCW AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_SPLITPARAM AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_OPENFILE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_ENTBASE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_SELUSER AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_SELMARKER AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_LASER_YAG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_CAMERASET AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_ISSUE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_DRAWTOOL AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_PENBOX DLGINIT
+BEGIN
+    IDC_MFCPROPERTYGRID2, 0x37c, 413, 0
+0x4d3c, 0x4346, 0x7250, 0x706f, 0x7265, 0x7974, 0x7247, 0x6469, 0x485f, 
+0x6165, 0x6564, 0x4372, 0x7274, 0x3e6c, 0x5254, 0x4555, 0x2f3c, 0x464d, 
+0x5043, 0x6f72, 0x6570, 0x7472, 0x4779, 0x6972, 0x5f64, 0x6548, 0x6461, 
+0x7265, 0x7443, 0x6c72, 0x3c3e, 0x464d, 0x5043, 0x6f72, 0x6570, 0x7472, 
+0x4779, 0x6972, 0x5f64, 0x6544, 0x6373, 0x6972, 0x7470, 0x6f69, 0x416e, 
+0x6572, 0x3e61, 0x5254, 0x4555, 0x2f3c, 0x464d, 0x5043, 0x6f72, 0x6570, 
+0x7472, 0x4779, 0x6972, 0x5f64, 0x6544, 0x6373, 0x6972, 0x7470, 0x6f69, 
+0x416e, 0x6572, 0x3e61, 0x4d3c, 0x4346, 0x7250, 0x706f, 0x7265, 0x7974, 
+0x7247, 0x6469, 0x415f, 0x706c, 0x6168, 0x6562, 0x6974, 0x4d63, 0x646f, 
+0x3e65, 0x4146, 0x534c, 0x3c45, 0x4d2f, 0x4346, 0x7250, 0x706f, 0x7265, 
+0x7974, 0x7247, 0x6469, 0x415f, 0x706c, 0x6168, 0x6562, 0x6974, 0x4d63, 
+0x646f, 0x3e65, 0x4d3c, 0x4346, 0x7250, 0x706f, 0x7265, 0x7974, 0x7247, 
+0x6469, 0x4d5f, 0x646f, 0x6669, 0x6569, 0x5064, 0x6f72, 0x6570, 0x7472, 
+0x6569, 0x3e73, 0x4146, 0x534c, 0x3c45, 0x4d2f, 0x4346, 0x7250, 0x706f, 
+0x7265, 0x7974, 0x7247, 0x6469, 0x4d5f, 0x646f, 0x6669, 0x6569, 0x5064, 
+0x6f72, 0x6570, 0x7472, 0x6569, 0x3e73, 0x4d3c, 0x4346, 0x7250, 0x706f, 
+0x7265, 0x7974, 0x7247, 0x6469, 0x565f, 0x4453, 0x746f, 0x654e, 0x4c74, 
+0x6f6f, 0x3e6b, 0x5254, 0x4555, 0x2f3c, 0x464d, 0x5043, 0x6f72, 0x6570, 
+0x7472, 0x4779, 0x6972, 0x5f64, 0x5356, 0x6f44, 0x4e74, 0x7465, 0x6f4c, 
+0x6b6f, 0x3c3e, 0x464d, 0x5043, 0x6f72, 0x6570, 0x7472, 0x4779, 0x6972, 
+0x5f64, 0x6544, 0x6373, 0x6972, 0x7470, 0x6f69, 0x526e, 0x776f, 0x3e73, 
+0x3c33, 0x4d2f, 0x4346, 0x7250, 0x706f, 0x7265, 0x7974, 0x7247, 0x6469, 
+0x445f, 0x7365, 0x7263, 0x7069, 0x6974, 0x6e6f, 0x6f52, 0x7377, "\076" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CUR_ZOOM_WND        CURSOR                  "res\\cur00023.cur"
+
+IDC_CUR_ZOOM_PAN        CURSOR                  "res\\cur00014.cur"
+
+IDC_CUR_SCALE135        CURSOR                  "res\\cur00002.cur"
+
+IDC_CUR_SCALEY          CURSOR                  "res\\cur00003.cur"
+
+IDC_CUR_MOVE            CURSOR                  "res\\cur00004.cur"
+
+IDC_CUR_MOVEADD         CURSOR                  "res\\cur00005.cur"
+
+IDC_CUR_SHEARX          CURSOR                  "res\\cur00007.cur"
+
+IDC_CUR_SHEARY          CURSOR                  "res\\cur00008.cur"
+
+IDC_CUR_SCALE45         CURSOR                  "res\\cur00001.cur"
+
+IDC_CUR_SCALEALL        CURSOR                  "res\\cursor1.cur"
+
+IDC_CUR_SCALEX          CURSOR                  "res\\cursor2.cur"
+
+IDC_CUR_CURVE           CURSOR                  "res\\cur_curv.cur"
+
+IDC_CUR_NODEPICK        CURSOR                  "res\\cur00011.cur"
+
+IDC_CUR_ROTATE          CURSOR                  "res\\cur00006.cur"
+
+IDC_CUR_ROTATECEN       CURSOR                  "res\\cur00009.cur"
+
+IDC_CUR_POINT           CURSOR                  "res\\cur00015.cur"
+
+IDC_CURSOR8             CURSOR                  "res\\cur00029.cur"
+
+IDC_CUR_PICK_CURVE      CURSOR                  "res\\curCurve.cur"
+
+IDC_CURSOR2             CURSOR                  "res\\cur00018.cur"
+
+IDC_CUR_TEXT_PATH       CURSOR                  "res\\cur_text.cur"
+
+IDC_CURSOR_TRIM         CURSOR                  "res\\cur00013.cur"
+
+IDC_CURSOR_INTER        CURSOR                  "res\\cursor_t.cur"
+
+IDC_CURSOR1             CURSOR                  "res\\cur00016.cur"
+
+IDC_CUR_TRIM_NOR        CURSOR                  "res\\curTrim.cur"
+
+IDC_CUR_TRIM_ON         CURSOR                  "res\\cur_trim.cur"
+
+IDC_CUR_LOCK            CURSOR                  "res\\cur_scal.cur"
+
+IDC_CUR_BEZ_MOVE        CURSOR                  "res\\cur00010.cur"
+
+IDC_CUR_BEZ_DEL         CURSOR                  "res\\cur00020.cur"
+
+IDC_CUR_BEZ_ADD         CURSOR                  "res\\cur00021.cur"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_PNG1                PNG                     "res\\png\\lock.png"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE 初始化失败。  请确保 OLE 库是正确的版本。"
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "EzCad3\n\nEzCad3\nEzCad3 files(*.ez3)\n.ez3\nEzCad3.Document\nEzCad3.Document"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "EzCad3_VS2015"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_OPEN            "打开现有文档\n打开"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+    ID_FILE_SAVE            "保存活动文档\n保存"
+    ID_FILE_SAVE_AS         "用新名称保存活动文档\n另存为"
+    ID_FILE_PAGE_SETUP      "更改打印选项\n页面设置"
+    ID_FILE_PRINT_SETUP     "更改打印机选项和打印选项\n打印设置"
+    ID_FILE_PRINT           "打印活动文档\n打印"
+    ID_FILE_PRINT_DIRECT    "使用当前选项打印活动文档\n快速打印"
+    ID_FILE_PRINT_PREVIEW   "显示整页\n打印预览"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "显示程序信息、版本号和版权信息\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "打开此文档"
+    ID_FILE_MRU_FILE2       "打开此文档"
+    ID_FILE_MRU_FILE3       "打开此文档"
+    ID_FILE_MRU_FILE4       "打开此文档"
+    ID_FILE_MRU_FILE5       "打开此文档"
+    ID_FILE_MRU_FILE6       "打开此文档"
+    ID_FILE_MRU_FILE7       "打开此文档"
+    ID_FILE_MRU_FILE8       "打开此文档"
+    ID_FILE_MRU_FILE9       "打开此文档"
+    ID_FILE_MRU_FILE10      "打开此文档"
+    ID_FILE_MRU_FILE11      "打开此文档"
+    ID_FILE_MRU_FILE12      "打开此文档"
+    ID_FILE_MRU_FILE13      "打开此文档"
+    ID_FILE_MRU_FILE14      "打开此文档"
+    ID_FILE_MRU_FILE15      "打开此文档"
+    ID_FILE_MRU_FILE16      "打开此文档"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回上一个窗格\n上一窗格"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "将活动窗口拆分为多个窗格\n拆分"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "清除所选内容\n清除"
+    ID_EDIT_CLEAR_ALL       "清除全部内容\n全部清除"
+    ID_EDIT_COPY            "复制所选内容，将其放入剪贴板\n复制"
+    ID_EDIT_CUT             "剪切所选内容，将其放入剪贴板\n剪切"
+    ID_EDIT_FIND            "查找指定的文本\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一操作\n重复"
+    ID_EDIT_REPLACE         "用其他文本替换特定的文本\n替换"
+    ID_EDIT_SELECT_ALL      "选定整个文档\n全选"
+    ID_EDIT_UNDO            "撤消上一操作\n撤消"
+    ID_EDIT_REDO            "重做上次撤消的操作\n重做"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n切换状态栏"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "更改窗口大小"
+    AFX_IDS_SCMOVE          "更改窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "将窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到上一个文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动窗口并提示保存文档"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "将窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务列表"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "关闭打印预览模式\n取消预览"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATUS_PANE1        "窗格 1"
+    IDS_STATUS_PANE2        "窗格 2"
+    IDS_TOOLBAR_STANDARD    "标准"
+    IDS_TOOLBAR_CUSTOMIZE   "自定义..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FILE_VIEW           "文件视图"
+    IDS_CLASS_VIEW          "类视图"
+    IDS_OUTPUT_WND          "输出"
+    IDS_PROPERTIES_WND      "属性"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_EXPLORER            "资源管理器"
+    IDS_EDIT_MENU           "编辑"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BUILD_TAB           "生成"
+    IDS_DEBUG_TAB           "调试"
+    IDS_FIND_TAB            "查找"
+END
+
+STRINGTABLE
+BEGIN
+    ID_TOOLBAR_MARK3        "MARK3"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_USERPARAM DIALOGEX 0, 0, 336, 233
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "??",IDOK,207,212,50,14
+    PUSHBUTTON      "??",IDCANCEL,279,212,50,14
+    LTEXT           "Static",IDC_STATIC_1,21,18,44,8
+    EDITTEXT        IDC_EDIT1,69,15,130,14,ES_AUTOHSCROLL
+    CONTROL         "Check1",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,69,76,163,10
+    CONTROL         "Check1",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,69,92,163,10
+    CONTROL         "Check1",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,69,108,163,10
+    CONTROL         "Check1",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,69,124,163,10
+    CONTROL         "Check1",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,69,140,163,10
+    CONTROL         "Check1",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,69,156,163,10
+    EDITTEXT        IDC_EDIT2,69,34,130,14,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,69,52,130,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "Static",IDC_STATIC_2,21,37,44,8
+    LTEXT           "Static",IDC_STATIC_3,21,55,44,8
+    CONTROL         "Check1",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,69,172,163,10
+    CONTROL         "Check1",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,69,188,163,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG_USERPARAM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 329
+        VERTGUIDE, 69
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 226
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG_USERPARAM AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#include "res\EzCad3_VS2015.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#include "l.CHS\afxprint.rc"    // 打印/打印预览资源
+#if !defined(_AFXDLL)
+#include "l.CHS\afxribbon.rc"        // MFC 功能区和控制条资源
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

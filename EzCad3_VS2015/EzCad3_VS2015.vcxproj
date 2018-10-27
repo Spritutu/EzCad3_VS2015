@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseRtc5|Win32">
+      <Configuration>ReleaseRtc5</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseRtc5|x64">
+      <Configuration>ReleaseRtc5</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B45859CB-2139-4E81-B25F-3C2462EF3500}</ProjectGuid>
+    <RootNamespace>EzCad3_VS2015</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseRtc5|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseRtc5|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseRtc5|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseRtc5|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)Lib\</IntDir>
+    <TargetName>Ezcad3</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)Lib\</IntDir>
+    <TargetName>Ezcad3</TargetName>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)$(ProjectName)\dlg;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)Lib\</IntDir>
+    <TargetName>Ezcad3</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseRtc5|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)Lib\</IntDir>
+    <TargetName>Ezcad3</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)Lib\</IntDir>
+    <TargetName>Ezcad3</TargetName>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)$(ProjectName)\dlg;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseRtc5|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)Lib\</IntDir>
+    <TargetName>Ezcad3</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)Ezcad3Kernel\inc;$(SolutionDir)$(ProjectName)\dlg</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ezcad3kernel.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)lib</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ezcad3kernel.lib</AdditionalDependencies>
+      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Xdcmake>
+      <OutputFile>$(IntDir)$(TargetName).xml</OutputFile>
+    </Xdcmake>
+    <Bscmake>
+      <OutputFile>$(IntDir)$(TargetName).bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)Ezcad3Kernel\inc;$(SolutionDir)$(ProjectName)\dlg</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ezcad3kernel.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseRtc5|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)Ezcad3Kernel\inc;$(SolutionDir)$(ProjectName)\dlg</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ezcad3kernel.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <OmitFramePointers>false</OmitFramePointers>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ezcad3kernel.lib</AdditionalDependencies>
+      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <ProfileGuidedDatabase>$(IntDir)$(TargetName).pgd</ProfileGuidedDatabase>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Bscmake>
+      <OutputFile>$(IntDir)$(TargetName).bsc</OutputFile>
+    </Bscmake>
+    <Xdcmake>
+      <OutputFile>$(IntDir)$(TargetName).xml</OutputFile>
+    </Xdcmake>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseRtc5|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;ENABLE_RTC5;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)Ezcad3Kernel\inc;$(SolutionDir)$(ProjectName)\dlg</AdditionalIncludeDirectories>
+      <OmitFramePointers>false</OmitFramePointers>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ezcad3kernel.lib</AdditionalDependencies>
+      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <ProfileGuidedDatabase>$(IntDir)$(TargetName).pgd</ProfileGuidedDatabase>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Bscmake>
+      <OutputFile>$(IntDir)$(TargetName).bsc</OutputFile>
+    </Bscmake>
+    <Xdcmake>
+      <OutputFile>$(IntDir)$(TargetName).xml</OutputFile>
+    </Xdcmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\Box2d.h" />
+    <ClInclude Include="..\Include\Box2df.h" />
+    <ClInclude Include="..\Include\Box3d.h" />
+    <ClInclude Include="..\Include\Box3df.h" />
+    <ClInclude Include="..\Include\DlgEntBase.h" />
+    <ClInclude Include="..\Include\DlgProgress.h" />
+    <ClInclude Include="..\Include\EntOpenGLWnd.h" />
+    <ClInclude Include="..\Include\entshowwnd.h" />
+    <ClInclude Include="..\Include\ErrCode.h" />
+    <ClInclude Include="..\Include\Ezcad3UserId.h" />
+    <ClInclude Include="..\Include\EzcadDef.h" />
+    <ClInclude Include="..\Include\MakeClock.h" />
+    <ClInclude Include="..\Include\Matrix2d.h" />
+    <ClInclude Include="..\Include\Matrix3d.h" />
+    <ClInclude Include="..\Include\PenParamPropSet.h" />
+    <ClInclude Include="..\Include\Pt2d.h" />
+    <ClInclude Include="..\Include\pt2df.h" />
+    <ClInclude Include="..\Include\pt3d.h" />
+    <ClInclude Include="..\Include\Pt3df.h" />
+    <ClInclude Include="..\Include\QDib.h" />
+    <ClInclude Include="..\Include\QDlg.h" />
+    <ClInclude Include="..\Include\qentview.h" />
+    <ClInclude Include="..\Include\QGlobal.h" />
+    <ClInclude Include="..\Include\QIniFile.h" />
+    <ClInclude Include="..\Include\QLamp.h" />
+    <ClInclude Include="..\Include\qmotor.h" />
+    <ClInclude Include="..\Include\qmotormgr.h" />
+    <ClInclude Include="..\Include\Qopenglwnd.h" />
+    <ClInclude Include="..\Include\QPngButton.h" />
+    <ClInclude Include="..\Include\qpropertygridproperty.h" />
+    <ClInclude Include="..\Include\qpropertygridpropertyparam.h" />
+    <ClInclude Include="..\Include\QRuler.h" />
+    <ClInclude Include="..\Include\qstaticbmp.h" />
+    <ClInclude Include="..\Include\QStaticColorBar.h" />
+    <ClInclude Include="..\Include\quser.h" />
+    <ClInclude Include="..\Include\SysParam.h" />
+    <ClInclude Include="..\Include\Usermessdef.h" />
+    <ClInclude Include="DialogIssue.h" />
+    <ClInclude Include="dlglicense.h" />
+    <ClInclude Include="dlg\DlgCameraSet.h" />
+    <ClInclude Include="dlg\DlgEntList.h" />
+    <ClInclude Include="dlg\DlgLayerParam.h" />
+    <ClInclude Include="dlg\DlgOpenFile.h" />
+    <ClInclude Include="dlg\DlgSelMarker.h" />
+    <ClInclude Include="dlg\DlgSelUser.h" />
+    <ClInclude Include="dlg\DlgSplash.h" />
+    <ClInclude Include="dlg\DlgUserParam.h" />
+    <ClInclude Include="dlg\DrawToolBar.h" />
+    <ClInclude Include="dlg\EntListBar.h" />
+    <ClInclude Include="dlg\EntPropBar.h" />
+    <ClInclude Include="dlg\QEntLayerView.h" />
+    <ClInclude Include="Ezcad3Doc.h" />
+    <ClInclude Include="Ezcad3View.h" />
+    <ClInclude Include="EzCad3_VS2015.h" />
+    <ClInclude Include="LaserMonitor\DlgLaserMonitor.h" />
+    <ClInclude Include="LaserMonitor\DlgLaserMonitorFiber.h" />
+    <ClInclude Include="LaserMonitor\DlgLaserMonitorQcw.h" />
+    <ClInclude Include="LaserMonitor\DlgLaserMonitorSpi.h" />
+    <ClInclude Include="LaserMonitor\DlgLaserMonitorYag.h" />
+    <ClInclude Include="LaserMonitor\LaserMonitorPanel.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Mark\DlgMotionPanel.h" />
+    <ClInclude Include="Mark\DlgSplitParam.h" />
+    <ClInclude Include="Mark\MarkerErrStr.h" />
+    <ClInclude Include="Mark\MarkStd\DlgMark.h" />
+    <ClInclude Include="Mark\MarkStd\DlgMarking.h" />
+    <ClInclude Include="Mark\MarkWnd.h" />
+    <ClInclude Include="MyDocManager.h" />
+    <ClInclude Include="PenBox\ColorButton.h" />
+    <ClInclude Include="PenBox\DialogPenbox.h" />
+    <ClInclude Include="PenBox\PenboxBar.h" />
+    <ClInclude Include="QTabView.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SystemParam\dlgbackup.h" />
+    <ClInclude Include="SystemParam\dlgcolor.h" />
+    <ClInclude Include="SystemParam\dlggeneral.h" />
+    <ClInclude Include="SystemParam\dlglanguage.h" />
+    <ClInclude Include="SystemParam\dlgmoverotate.h" />
+    <ClInclude Include="SystemParam\dlgpsw.h" />
+    <ClInclude Include="SystemParam\dlgsystemparam.h" />
+    <ClInclude Include="SystemParam\dlguser.h" />
+    <ClInclude Include="SystemParam\dlgworkspace.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TipsMessageText.h" />
+    <ClInclude Include="version.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DialogIssue.cpp" />
+    <ClCompile Include="dlglicense.cpp" />
+    <ClCompile Include="dlg\DlgCameraSet.cpp" />
+    <ClCompile Include="dlg\DlgEntList.cpp" />
+    <ClCompile Include="dlg\DlgLayerParam.cpp" />
+    <ClCompile Include="dlg\DlgOpenFile.cpp" />
+    <ClCompile Include="dlg\DlgSelMarker.cpp" />
+    <ClCompile Include="dlg\DlgSelUser.cpp" />
+    <ClCompile Include="dlg\DlgSplash.cpp" />
+    <ClCompile Include="dlg\DlgUserParam.cpp" />
+    <ClCompile Include="dlg\DrawToolBar.cpp" />
+    <ClCompile Include="dlg\EntListBar.cpp" />
+    <ClCompile Include="dlg\EntPropBar.cpp" />
+    <ClCompile Include="dlg\QEntLayerView.cpp" />
+    <ClCompile Include="Ezcad3Doc.cpp" />
+    <ClCompile Include="Ezcad3View.cpp" />
+    <ClCompile Include="EzCad3_VS2015.cpp" />
+    <ClCompile Include="LaserMonitor\DlgLaserMonitor.cpp" />
+    <ClCompile Include="LaserMonitor\DlgLaserMonitorFiber.cpp" />
+    <ClCompile Include="LaserMonitor\DlgLaserMonitorQcw.cpp" />
+    <ClCompile Include="LaserMonitor\DlgLaserMonitorSpi.cpp" />
+    <ClCompile Include="LaserMonitor\DlgLaserMonitorYag.cpp" />
+    <ClCompile Include="LaserMonitor\LaserMonitorPanel.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MainFrm2.cpp" />
+    <ClCompile Include="Mark\DlgMotionPanel.cpp" />
+    <ClCompile Include="Mark\DlgSplitParam.cpp" />
+    <ClCompile Include="Mark\MarkerErrStr.cpp" />
+    <ClCompile Include="Mark\MarkStd\DlgMark.cpp" />
+    <ClCompile Include="Mark\MarkStd\DlgMarking.cpp" />
+    <ClCompile Include="Mark\MarkWnd.cpp" />
+    <ClCompile Include="MyDocManager.cpp" />
+    <ClCompile Include="PenBox\ColorButton.cpp" />
+    <ClCompile Include="PenBox\DialogPenbox.cpp" />
+    <ClCompile Include="PenBox\PenboxBar.cpp" />
+    <ClCompile Include="QTabView.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseRtc5|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseRtc5|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SystemParam\DlgBackup.cpp" />
+    <ClCompile Include="SystemParam\dlgcolor.cpp" />
+    <ClCompile Include="SystemParam\dlggeneral.cpp" />
+    <ClCompile Include="SystemParam\dlglanguage.cpp" />
+    <ClCompile Include="SystemParam\dlgmoverotate.cpp" />
+    <ClCompile Include="SystemParam\dlgpsw.cpp" />
+    <ClCompile Include="SystemParam\dlgsystemparam.cpp" />
+    <ClCompile Include="SystemParam\dlguser.cpp" />
+    <ClCompile Include="SystemParam\dlgworkspace.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EzCad3_VS2015.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmap2.bmp" />
+    <Image Include="res\bitmap3.bmp" />
+    <Image Include="res\bitmap4.bmp" />
+    <Image Include="res\bitmap5.bmp" />
+    <Image Include="res\bitmap_a.bmp" />
+    <Image Include="res\bitmap_b.bmp" />
+    <Image Include="res\bitmap_e.bmp" />
+    <Image Include="res\bitmap_g.bmp" />
+    <Image Include="res\bitmap_l.bmp" />
+    <Image Include="res\bitmap_m.bmp" />
+    <Image Include="res\bitmap_s.bmp" />
+    <Image Include="res\bitmap_t.bmp" />
+    <Image Include="res\bitmap_u.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\bmp00002.bmp" />
+    <Image Include="res\bmp00003.bmp" />
+    <Image Include="res\bmp00004.bmp" />
+    <Image Include="res\bmp00005.bmp" />
+    <Image Include="res\bmp00006.bmp" />
+    <Image Include="res\bmp00007.bmp" />
+    <Image Include="res\bmp00008.bmp" />
+    <Image Include="res\bmp00009.bmp" />
+    <Image Include="res\bmp00010.bmp" />
+    <Image Include="res\bmp00011.bmp" />
+    <Image Include="res\bmp00012.bmp" />
+    <Image Include="res\bmp00013.bmp" />
+    <Image Include="res\bmp00014.bmp" />
+    <Image Include="res\bmp00015.bmp" />
+    <Image Include="res\bmp00016.bmp" />
+    <Image Include="res\bmp00017.bmp" />
+    <Image Include="res\bmp00018.bmp" />
+    <Image Include="res\bmp00019.bmp" />
+    <Image Include="res\bmp00020.bmp" />
+    <Image Include="res\bmp00021.bmp" />
+    <Image Include="res\bmp00022.bmp" />
+    <Image Include="res\bmp00023.bmp" />
+    <Image Include="res\bmp00024.bmp" />
+    <Image Include="res\bmp00025.bmp" />
+    <Image Include="res\bmp00026.bmp" />
+    <Image Include="res\bmp00027.bmp" />
+    <Image Include="res\bmp00028.bmp" />
+    <Image Include="res\bmp00029.bmp" />
+    <Image Include="res\bmp00030.bmp" />
+    <Image Include="res\bmp00031.bmp" />
+    <Image Include="res\bmp00032.bmp" />
+    <Image Include="res\bmp00033.bmp" />
+    <Image Include="res\bmp00034.bmp" />
+    <Image Include="res\bmp00035.bmp" />
+    <Image Include="res\bmp00036.bmp" />
+    <Image Include="res\bmp00037.bmp" />
+    <Image Include="res\bmp00038.bmp" />
+    <Image Include="res\bmp00039.bmp" />
+    <Image Include="res\bmp00040.bmp" />
+    <Image Include="res\bmp00041.bmp" />
+    <Image Include="res\bmp00042.bmp" />
+    <Image Include="res\bmp00043.bmp" />
+    <Image Include="res\bmp00044.bmp" />
+    <Image Include="res\bmp00045.bmp" />
+    <Image Include="res\bmp00046.bmp" />
+    <Image Include="res\bmp00047.bmp" />
+    <Image Include="res\bmp00048.bmp" />
+    <Image Include="res\bmp00049.bmp" />
+    <Image Include="res\bmp00050.bmp" />
+    <Image Include="res\bmp00051.bmp" />
+    <Image Include="res\bmp00052.bmp" />
+    <Image Include="res\bmp00053.bmp" />
+    <Image Include="res\bmp00054.bmp" />
+    <Image Include="res\bmp00055.bmp" />
+    <Image Include="res\bmp00056.bmp" />
+    <Image Include="res\bmp00057.bmp" />
+    <Image Include="res\bmp00058.bmp" />
+    <Image Include="res\bmp00059.bmp" />
+    <Image Include="res\bmp00060.bmp" />
+    <Image Include="res\bmp00061.bmp" />
+    <Image Include="res\bmp00062.bmp" />
+    <Image Include="res\bmp00063.bmp" />
+    <Image Include="res\classview.bmp" />
+    <Image Include="res\classview_hc.bmp" />
+    <Image Include="res\class_view.ico" />
+    <Image Include="res\class_view_hc.ico" />
+    <Image Include="res\drawtoolbar.bmp" />
+    <Image Include="res\EntType0.bmp" />
+    <Image Include="res\EntType1.bmp" />
+    <Image Include="res\EntType10.bmp" />
+    <Image Include="res\EntType12.bmp" />
+    <Image Include="res\EntType13.bmp" />
+    <Image Include="res\EntType14.bmp" />
+    <Image Include="res\EntType15.bmp" />
+    <Image Include="res\EntType19.bmp" />
+    <Image Include="res\EntType2.bmp" />
+    <Image Include="res\EntType20.bmp" />
+    <Image Include="res\EntType3.bmp" />
+    <Image Include="res\EntType4.bmp" />
+    <Image Include="res\EntType5.bmp" />
+    <Image Include="res\EntType6.bmp" />
+    <Image Include="res\EntType7.bmp" />
+    <Image Include="res\EntType8.bmp" />
+    <Image Include="res\EntType9.bmp" />
+    <Image Include="res\EntTypeGroup.bmp" />
+    <Image Include="res\explorer.bmp" />
+    <Image Include="res\explorer_hc.bmp" />
+    <Image Include="res\Ezcad3.ico" />
+    <Image Include="res\EzCad3_VS2015.ico" />
+    <Image Include="res\EzCad3_VS2015Doc.ico" />
+    <Image Include="res\fileview.bmp" />
+    <Image Include="res\fileview_hc.bmp" />
+    <Image Include="res\file_view.ico" />
+    <Image Include="res\file_view_hc.ico" />
+    <Image Include="res\ico00001.ico" />
+    <Image Include="res\ico00002.ico" />
+    <Image Include="res\ico00003.ico" />
+    <Image Include="res\ico00004.ico" />
+    <Image Include="res\ico00005.ico" />
+    <Image Include="res\ico00006.ico" />
+    <Image Include="res\ico00007.ico" />
+    <Image Include="res\ico00008.ico" />
+    <Image Include="res\ico00009.ico" />
+    <Image Include="res\ico00010.ico" />
+    <Image Include="res\ico00011.ico" />
+    <Image Include="res\ico00012.ico" />
+    <Image Include="res\ico00013.ico" />
+    <Image Include="res\ico00014.ico" />
+    <Image Include="res\ico00015.ico" />
+    <Image Include="res\ico00016.ico" />
+    <Image Include="res\ico00017.ico" />
+    <Image Include="res\ico00018.ico" />
+    <Image Include="res\ico00019.ico" />
+    <Image Include="res\ico00020.ico" />
+    <Image Include="res\ico00021.ico" />
+    <Image Include="res\ico00022.ico" />
+    <Image Include="res\ico00023.ico" />
+    <Image Include="res\ico00024.ico" />
+    <Image Include="res\ico00025.ico" />
+    <Image Include="res\ico00026.ico" />
+    <Image Include="res\ico00027.ico" />
+    <Image Include="res\ico00028.ico" />
+    <Image Include="res\ico00029.ico" />
+    <Image Include="res\ico00030.ico" />
+    <Image Include="res\ico00031.ico" />
+    <Image Include="res\ico00032.ico" />
+    <Image Include="res\ico00033.ico" />
+    <Image Include="res\ico00034.ico" />
+    <Image Include="res\ico00035.ico" />
+    <Image Include="res\ico00036.ico" />
+    <Image Include="res\ico00037.ico" />
+    <Image Include="res\ico00038.ico" />
+    <Image Include="res\ico00039.ico" />
+    <Image Include="res\ico00040.ico" />
+    <Image Include="res\ico00041.ico" />
+    <Image Include="res\ico00042.ico" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\icon2.ico" />
+    <Image Include="res\icon4.ico" />
+    <Image Include="res\icon_bas.ico" />
+    <Image Include="res\icon_bid.ico" />
+    <Image Include="res\icon_cw1.ico" />
+    <Image Include="res\icon_hat.ico" />
+    <Image Include="res\icon_hig.ico" />
+    <Image Include="res\icon_lis.ico" />
+    <Image Include="res\icon_pol.ico" />
+    <Image Include="res\icon_pul.ico" />
+    <Image Include="res\icon_spa.ico" />
+    <Image Include="res\icon_sta.ico" />
+    <Image Include="res\icon_tex.ico" />
+    <Image Include="res\icon_xfi.ico" />
+    <Image Include="res\lampSmall1.bmp" />
+    <Image Include="res\lampSmall2.bmp" />
+    <Image Include="res\lampSmall3.bmp" />
+    <Image Include="res\listshow.bmp" />
+    <Image Include="res\mainfram.bmp" />
+    <Image Include="res\menuimages.bmp" />
+    <Image Include="res\menuimages_hc.bmp" />
+    <Image Include="res\output_wnd.ico" />
+    <Image Include="res\output_wnd_hc.ico" />
+    <Image Include="res\png\lock.png" />
+    <Image Include="res\png\newfile.png" />
+    <Image Include="res\png\Param.png" />
+    <Image Include="res\png\systoolbar.png" />
+    <Image Include="res\png\UpArrow.png" />
+    <Image Include="res\png\ZDownArrow.png" />
+    <Image Include="res\properties.bmp" />
+    <Image Include="res\properties_hc.bmp" />
+    <Image Include="res\properties_wnd.ico" />
+    <Image Include="res\properties_wnd_hc.ico" />
+    <Image Include="res\rotatex.bmp" />
+    <Image Include="res\rotatey.bmp" />
+    <Image Include="res\rotatez.bmp" />
+    <Image Include="res\ShowOff.bmp" />
+    <Image Include="res\ShowOn.bmp" />
+    <Image Include="res\sort.bmp" />
+    <Image Include="res\sort_25.bmp" />
+    <Image Include="res\sort_hc.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\Toolbar256.bmp" />
+    <Image Include="res\toolbar_.bmp" />
+    <Image Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\x64\Debug\LANG\lang_Chs.ini" />
+    <None Include="res\cur00001.cur" />
+    <None Include="res\cur00002.cur" />
+    <None Include="res\cur00003.cur" />
+    <None Include="res\cur00004.cur" />
+    <None Include="res\cur00005.cur" />
+    <None Include="res\cur00006.cur" />
+    <None Include="res\cur00007.cur" />
+    <None Include="res\cur00008.cur" />
+    <None Include="res\cur00009.cur" />
+    <None Include="res\cur00010.cur" />
+    <None Include="res\cur00011.cur" />
+    <None Include="res\cur00012.cur" />
+    <None Include="res\cur00013.cur" />
+    <None Include="res\cur00014.cur" />
+    <None Include="res\cur00015.cur" />
+    <None Include="res\cur00016.cur" />
+    <None Include="res\cur00017.cur" />
+    <None Include="res\cur00018.cur" />
+    <None Include="res\cur00019.cur" />
+    <None Include="res\cur00020.cur" />
+    <None Include="res\cur00021.cur" />
+    <None Include="res\cur00022.cur" />
+    <None Include="res\cur00023.cur" />
+    <None Include="res\cur00024.cur" />
+    <None Include="res\cur00025.cur" />
+    <None Include="res\cur00026.cur" />
+    <None Include="res\cur00027.cur" />
+    <None Include="res\cur00028.cur" />
+    <None Include="res\cur00029.cur" />
+    <None Include="res\curCircle.cur" />
+    <None Include="res\curCurve.cur" />
+    <None Include="res\curEllipse.cur" />
+    <None Include="res\curLine.cur" />
+    <None Include="res\curPolygon.cur" />
+    <None Include="res\curRect.cur" />
+    <None Include="res\cursor1.cur" />
+    <None Include="res\cursor2.cur" />
+    <None Include="res\cursor_t.cur" />
+    <None Include="res\curTrim.cur" />
+    <None Include="res\cur_bez_.cur" />
+    <None Include="res\cur_curv.cur" />
+    <None Include="res\cur_rect.cur" />
+    <None Include="res\cur_scal.cur" />
+    <None Include="res\cur_text.cur" />
+    <None Include="res\cur_trim.cur" />
+    <None Include="res\EzCad3_VS2015.rc2" />
+    <None Include="res\ribbon1.mfcribbon-ms" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="EzCad3_VS2015.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

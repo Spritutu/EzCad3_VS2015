@@ -1,0 +1,1188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Penbox">
+      <UniqueIdentifier>{0322914f-ccdf-4d0d-aacb-757762b643ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dlg">
+      <UniqueIdentifier>{7ff780fa-8a67-42bf-8b59-3d4e2afd7460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemParam">
+      <UniqueIdentifier>{72c56b79-1ad9-4ed4-a2e0-a0d13350ddb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mark">
+      <UniqueIdentifier>{3d4c99eb-6d82-40df-a596-8cbfb746f47c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mark\MarkStd">
+      <UniqueIdentifier>{eddee3a8-9645-4a4f-a8ec-34fc2e71e948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LaserMonitor">
+      <UniqueIdentifier>{730a0009-819a-49cb-9552-ab49ac80c3b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{a1303e8c-e9cf-4e6c-8baa-564ada28872d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EzCad3_VS2015.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ezcad3View.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QTabView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PenBox\ColorButton.h">
+      <Filter>Penbox</Filter>
+    </ClInclude>
+    <ClInclude Include="PenBox\PenboxBar.h">
+      <Filter>Penbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Ezcad3Doc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PenBox\DialogPenbox.h">
+      <Filter>Penbox</Filter>
+    </ClInclude>
+    <ClInclude Include="dlg\DlgSelUser.h">
+      <Filter>dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dlg\DlgSplash.h">
+      <Filter>dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemParam\dlgbackup.h">
+      <Filter>SystemParam</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemParam\dlgcolor.h">
+      <Filter>SystemParam</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemParam\dlggeneral.h">
+      <Filter>SystemParam</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemParam\dlglanguage.h">
+      <Filter>SystemParam</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemParam\dlgmoverotate.h">
+      <Filter>SystemParam</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemParam\dlgpsw.h">
+      <Filter>SystemParam</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemParam\dlgsystemparam.h">
+      <Filter>SystemParam</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemParam\dlguser.h">
+      <Filter>SystemParam</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemParam\dlgworkspace.h">
+      <Filter>SystemParam</Filter>
+    </ClInclude>
+    <ClInclude Include="dlg\DlgUserParam.h">
+      <Filter>dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Mark\MarkerErrStr.h">
+      <Filter>Mark</Filter>
+    </ClInclude>
+    <ClInclude Include="Mark\MarkWnd.h">
+      <Filter>Mark</Filter>
+    </ClInclude>
+    <ClInclude Include="Mark\MarkStd\DlgMark.h">
+      <Filter>Mark\MarkStd</Filter>
+    </ClInclude>
+    <ClInclude Include="Mark\MarkStd\DlgMarking.h">
+      <Filter>Mark\MarkStd</Filter>
+    </ClInclude>
+    <ClInclude Include="dlg\DlgLayerParam.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dlglicense.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserMonitor\LaserMonitorPanel.h">
+      <Filter>LaserMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserMonitor\DlgLaserMonitor.h">
+      <Filter>LaserMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserMonitor\DlgLaserMonitorFiber.h">
+      <Filter>LaserMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserMonitor\DlgLaserMonitorSpi.h">
+      <Filter>LaserMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Mark\DlgMotionPanel.h">
+      <Filter>Mark\MarkStd</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserMonitor\DlgLaserMonitorQcw.h">
+      <Filter>LaserMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Mark\DlgSplitParam.h">
+      <Filter>Mark\MarkStd</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDocManager.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dlg\DlgOpenFile.h">
+      <Filter>dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Box2d.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Box2df.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Box3d.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Box3df.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DlgEntBase.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\EzcadDef.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Matrix2d.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Matrix3d.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Pt2d.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\pt2df.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\pt3d.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Pt3df.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\QDlg.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="dlg\DlgEntList.h">
+      <Filter>dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="dlg\EntListBar.h">
+      <Filter>dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="dlg\EntPropBar.h">
+      <Filter>dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="dlg\QEntLayerView.h">
+      <Filter>dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Usermessdef.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DlgProgress.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\EntOpenGLWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\entshowwnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ErrCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Ezcad3UserId.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\MakeClock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\PenParamPropSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\QDib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\qentview.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\QGlobal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\QIniFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\QLamp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\qmotor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\qmotormgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Qopenglwnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\QPngButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\qpropertygridproperty.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\qpropertygridpropertyparam.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\QRuler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\qstaticbmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\QStaticColorBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\quser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SysParam.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dlg\DlgSelMarker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserMonitor\DlgLaserMonitorYag.h">
+      <Filter>LaserMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="dlg\DlgCameraSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogIssue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dlg\DrawToolBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TipsMessageText.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EzCad3_VS2015.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ezcad3View.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QTabView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PenBox\ColorButton.cpp">
+      <Filter>Penbox</Filter>
+    </ClCompile>
+    <ClCompile Include="PenBox\PenboxBar.cpp">
+      <Filter>Penbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Ezcad3Doc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PenBox\DialogPenbox.cpp">
+      <Filter>Penbox</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg\DlgSelUser.cpp">
+      <Filter>dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg\DlgSplash.cpp">
+      <Filter>dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemParam\DlgBackup.cpp">
+      <Filter>SystemParam</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemParam\dlgcolor.cpp">
+      <Filter>SystemParam</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemParam\dlggeneral.cpp">
+      <Filter>SystemParam</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemParam\dlglanguage.cpp">
+      <Filter>SystemParam</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemParam\dlgmoverotate.cpp">
+      <Filter>SystemParam</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemParam\dlgpsw.cpp">
+      <Filter>SystemParam</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemParam\dlgsystemparam.cpp">
+      <Filter>SystemParam</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemParam\dlguser.cpp">
+      <Filter>SystemParam</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemParam\dlgworkspace.cpp">
+      <Filter>SystemParam</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg\DlgUserParam.cpp">
+      <Filter>dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Mark\MarkerErrStr.cpp">
+      <Filter>Mark</Filter>
+    </ClCompile>
+    <ClCompile Include="Mark\MarkWnd.cpp">
+      <Filter>Mark</Filter>
+    </ClCompile>
+    <ClCompile Include="Mark\MarkStd\DlgMark.cpp">
+      <Filter>Mark\MarkStd</Filter>
+    </ClCompile>
+    <ClCompile Include="Mark\MarkStd\DlgMarking.cpp">
+      <Filter>Mark\MarkStd</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg\DlgLayerParam.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dlglicense.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserMonitor\LaserMonitorPanel.cpp">
+      <Filter>LaserMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserMonitor\DlgLaserMonitor.cpp">
+      <Filter>LaserMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserMonitor\DlgLaserMonitorFiber.cpp">
+      <Filter>LaserMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserMonitor\DlgLaserMonitorSpi.cpp">
+      <Filter>LaserMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Mark\DlgMotionPanel.cpp">
+      <Filter>Mark\MarkStd</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserMonitor\DlgLaserMonitorQcw.cpp">
+      <Filter>LaserMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Mark\DlgSplitParam.cpp">
+      <Filter>Mark\MarkStd</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDocManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg\DlgOpenFile.cpp">
+      <Filter>dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg\DlgEntList.cpp">
+      <Filter>dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg\EntListBar.cpp">
+      <Filter>dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg\EntPropBar.cpp">
+      <Filter>dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg\QEntLayerView.cpp">
+      <Filter>dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg\DlgSelMarker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserMonitor\DlgLaserMonitorYag.cpp">
+      <Filter>LaserMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg\DlgCameraSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogIssue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg\DrawToolBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EzCad3_VS2015.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\file_view.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\file_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\class_view.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\class_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\fileview.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\fileview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\classview.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\classview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\explorer.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\explorer_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sort.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sort_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\menuimages.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\menuimages_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\output_wnd.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\output_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties_wnd.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="UserImages.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EzCad3_VS2015Doc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EzCad3_VS2015.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon_cw1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon_xfi.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00028.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon_bid.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00014.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00015.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00020.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00021.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00022.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00023.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00024.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00003.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ShowOff.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ShowOn.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EntType0.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EntType1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EntType2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EntType3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EntType4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EntType5.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EntType6.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EntType7.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EntType8.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EntType9.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EntType10.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EntType12.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EntType13.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EntType14.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EntType15.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EntType19.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EntType20.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EntTypeGroup.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00051.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00052.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00053.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00054.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00055.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00056.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap_e.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00002.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00008.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00007.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00006.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00005.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00004.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00003.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00002.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon_bas.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00001.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon_hig.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon_pul.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00018.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00016.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00030.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon_spa.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon4.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00025.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00013.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00027.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00032.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00012.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon_tex.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00009.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00010.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00026.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00011.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon_sta.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00019.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00029.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00031.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00033.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00034.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00035.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00036.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00037.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00038.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00039.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00040.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00041.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00017.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00029.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00049.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00011.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00010.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00009.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00008.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap_s.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00007.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap_g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00027.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00026.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00025.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00024.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00023.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00022.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00021.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap_l.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00041.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00040.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00031.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00030.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00039.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00038.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap_t.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00037.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00036.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00035.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00034.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00033.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00045.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00044.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00043.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00042.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00032.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00042.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon_pol.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00017.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00016.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00015.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00014.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00013.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00012.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00019.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00018.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00048.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00028.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00020.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00046.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00004.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00005.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00006.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\toolbar_.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00050.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Ezcad3.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\png\newfile.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\png\systoolbar.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\rotatez.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\rotatey.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\rotatex.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap_u.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\png\lock.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00047.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap_a.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00057.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\png\Param.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon_hat.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\mainfram.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap_m.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00058.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\lampSmall3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\lampSmall2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\lampSmall1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00059.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\drawtoolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\png\UpArrow.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\png\ZDownArrow.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap5.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00060.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00061.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00062.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00063.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap_b.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon_lis.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sort_25.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\listshow.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\EzCad3_VS2015.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cursor1.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cursor2.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur_bez_.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur_curv.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur_rect.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur_text.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00001.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00002.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00003.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00004.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00005.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00006.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00007.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00008.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00009.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00010.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00011.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00012.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00013.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00014.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00015.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00016.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00017.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00018.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00019.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00020.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00021.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00022.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00023.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00024.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00025.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00026.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00027.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00028.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00029.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\curCircle.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\curCurve.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\curEllipse.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\curLine.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\curPolygon.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\curRect.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ribbon1.mfcribbon-ms">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\x64\Debug\LANG\lang_Chs.ini">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="res\cursor_t.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\curTrim.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur_trim.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur_scal.cur">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

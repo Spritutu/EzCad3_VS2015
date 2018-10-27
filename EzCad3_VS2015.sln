@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EzCad3_VS2015", "EzCad3_VS2015\EzCad3_VS2015.vcxproj", "{B45859CB-2139-4E81-B25F-3C2462EF3500}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Barcode|Any CPU = Barcode|Any CPU
+		Barcode|Itanium = Barcode|Itanium
+		Barcode|x64 = Barcode|x64
+		Barcode|x86 = Barcode|x86
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Itanium = Debug|Itanium
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Mil9 release|Any CPU = Mil9 release|Any CPU
+		Mil9 release|Itanium = Mil9 release|Itanium
+		Mil9 release|x64 = Mil9 release|x64
+		Mil9 release|x86 = Mil9 release|x86
+		Mil9Rel|Any CPU = Mil9Rel|Any CPU
+		Mil9Rel|Itanium = Mil9Rel|Itanium
+		Mil9Rel|x64 = Mil9Rel|x64
+		Mil9Rel|x86 = Mil9Rel|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Itanium = Release|Itanium
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		ReleaseRtc5|Any CPU = ReleaseRtc5|Any CPU
+		ReleaseRtc5|Itanium = ReleaseRtc5|Itanium
+		ReleaseRtc5|x64 = ReleaseRtc5|x64
+		ReleaseRtc5|x86 = ReleaseRtc5|x86
+		ReRtc5|Any CPU = ReRtc5|Any CPU
+		ReRtc5|Itanium = ReRtc5|Itanium
+		ReRtc5|x64 = ReRtc5|x64
+		ReRtc5|x86 = ReRtc5|x86
+		Template|Any CPU = Template|Any CPU
+		Template|Itanium = Template|Itanium
+		Template|x64 = Template|x64
+		Template|x86 = Template|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Barcode|Any CPU.ActiveCfg = Release|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Barcode|Any CPU.Build.0 = Release|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Barcode|Itanium.ActiveCfg = Release|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Barcode|Itanium.Build.0 = Release|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Barcode|x64.ActiveCfg = Release|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Barcode|x64.Build.0 = Release|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Barcode|x86.ActiveCfg = Release|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Barcode|x86.Build.0 = Release|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Debug|Itanium.ActiveCfg = Debug|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Debug|x64.ActiveCfg = Debug|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Debug|x64.Build.0 = Debug|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Debug|x86.ActiveCfg = Debug|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Debug|x86.Build.0 = Debug|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Mil9 release|Any CPU.ActiveCfg = ReleaseRtc5|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Mil9 release|Any CPU.Build.0 = ReleaseRtc5|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Mil9 release|Itanium.ActiveCfg = Release|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Mil9 release|Itanium.Build.0 = Release|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Mil9 release|x64.ActiveCfg = ReleaseRtc5|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Mil9 release|x64.Build.0 = ReleaseRtc5|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Mil9 release|x86.ActiveCfg = ReleaseRtc5|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Mil9 release|x86.Build.0 = ReleaseRtc5|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Mil9Rel|Any CPU.ActiveCfg = ReleaseRtc5|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Mil9Rel|Any CPU.Build.0 = ReleaseRtc5|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Mil9Rel|Itanium.ActiveCfg = Release|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Mil9Rel|Itanium.Build.0 = Release|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Mil9Rel|x64.ActiveCfg = ReleaseRtc5|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Mil9Rel|x64.Build.0 = ReleaseRtc5|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Mil9Rel|x86.ActiveCfg = ReleaseRtc5|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Mil9Rel|x86.Build.0 = ReleaseRtc5|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Release|Any CPU.ActiveCfg = Release|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Release|Itanium.ActiveCfg = Release|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Release|x64.ActiveCfg = Release|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Release|x64.Build.0 = Release|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Release|x86.ActiveCfg = Release|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Release|x86.Build.0 = Release|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.ReleaseRtc5|Any CPU.ActiveCfg = ReleaseRtc5|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.ReleaseRtc5|Itanium.ActiveCfg = ReleaseRtc5|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.ReleaseRtc5|x64.ActiveCfg = ReleaseRtc5|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.ReleaseRtc5|x64.Build.0 = ReleaseRtc5|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.ReleaseRtc5|x86.ActiveCfg = ReleaseRtc5|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.ReleaseRtc5|x86.Build.0 = ReleaseRtc5|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.ReRtc5|Any CPU.ActiveCfg = ReleaseRtc5|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.ReRtc5|Any CPU.Build.0 = ReleaseRtc5|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.ReRtc5|Itanium.ActiveCfg = Release|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.ReRtc5|Itanium.Build.0 = Release|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.ReRtc5|x64.ActiveCfg = ReleaseRtc5|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.ReRtc5|x64.Build.0 = ReleaseRtc5|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.ReRtc5|x86.ActiveCfg = ReleaseRtc5|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.ReRtc5|x86.Build.0 = ReleaseRtc5|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Template|Any CPU.ActiveCfg = Release|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Template|Any CPU.Build.0 = Release|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Template|Itanium.ActiveCfg = Release|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Template|Itanium.Build.0 = Release|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Template|x64.ActiveCfg = Release|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Template|x64.Build.0 = Release|x64
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Template|x86.ActiveCfg = Release|Win32
+		{B45859CB-2139-4E81-B25F-3C2462EF3500}.Template|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
