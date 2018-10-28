@@ -826,13 +826,15 @@
 #define ID_TOOLBAR_MARK4                32988
 #define ID_TOOLBAR_RED                  32989
 #define ID_DRAW_BARCODE1                32990
+#define ID_DRAW_BARCODE2                32991
+#define ID_DRAW_BARCODE3                32992
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        805
-#define _APS_NEXT_COMMAND_VALUE         32991
+#define _APS_NEXT_COMMAND_VALUE         32993
 #define _APS_NEXT_CONTROL_VALUE         1150
 #define _APS_NEXT_SYMED_VALUE           310
 #endif

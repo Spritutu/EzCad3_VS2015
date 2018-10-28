@@ -131,6 +131,12 @@ CString GetMessageFullText(UINT nID)
 		case ID_DRAW_BARCODE1:
 			strFullText = QGlobal::gf_Str(_T("ID_DRAW_BARCODE1"), _T("Draw BarCode1\nDraw BarCode"));
 			break;
+		case ID_DRAW_BARCODE2:
+			strFullText = QGlobal::gf_Str(_T("ID_DRAW_BARCODE2"), _T("Draw BarCode2\nDraw BarCode"));
+			break;
+		case ID_DRAW_BARCODE3:
+			strFullText = QGlobal::gf_Str(_T("ID_DRAW_BARCODE3"), _T("Draw BarCode2\nDraw BarCode"));
+			break;
 		case ID_DRAW_BITMAP:
 			strFullText = QGlobal::gf_Str(_T("ID_DRAW_BITMAP"), _T("Draw bitmap file\nDraw bitmap file"));
 			break;
@@ -1766,7 +1772,26 @@ void CMainFrame::OnDrawBarcode1()
 	}
 	   
 }
+void CMainFrame::OnDrawBarcode2()
+{
+	// TODO: 在此添加命令处理程序代码
+	if (E3_GetCmdMgr() != NULL)
+	{
+		E3_CmdMgrRunCmd(E3_GetCmdMgr(), _T("DRAW"), SUBCMD_DRAW_BARCODE, 2);
 
+	}
+
+}
+void CMainFrame::OnDrawBarcode3()
+{
+	// TODO: 在此添加命令处理程序代码
+	if (E3_GetCmdMgr() != NULL)
+	{
+		E3_CmdMgrRunCmd(E3_GetCmdMgr(), _T("DRAW"), SUBCMD_DRAW_BARCODE, 3);
+
+	}
+
+}
 void CMainFrame::OnUpdateDrawBarcode(CCmdUI *pCmdUI)
 {
 	// TODO: 在此添加命令更新用户界面处理程序代码
@@ -1786,7 +1811,25 @@ void CMainFrame::OnUpdateDrawBarcode1(CCmdUI *pCmdUI)
 		pCmdUI->Enable(E3_CmdMgrIsCmdEnable(E3_GetCmdMgr(), _T("DRAW"), SUBCMD_DRAW_BARCODE));
 	}
 }
+void CMainFrame::OnUpdateDrawBarcode2(CCmdUI *pCmdUI)
+{
+	// TODO: 在此添加命令更新用户界面处理程序代码
+	pCmdUI->SetText(QGlobal::gf_Str(_T("BARCODE"), _T("BarCode")));
+	if (E3_GetCmdMgr() != NULL)
+	{
+		pCmdUI->Enable(E3_CmdMgrIsCmdEnable(E3_GetCmdMgr(), _T("DRAW"), SUBCMD_DRAW_BARCODE));
+	}
+}
 
+void CMainFrame::OnUpdateDrawBarcode3(CCmdUI *pCmdUI)
+{
+	// TODO: 在此添加命令更新用户界面处理程序代码
+	pCmdUI->SetText(QGlobal::gf_Str(_T("BARCODE"), _T("BarCode")));
+	if (E3_GetCmdMgr() != NULL)
+	{
+		pCmdUI->Enable(E3_CmdMgrIsCmdEnable(E3_GetCmdMgr(), _T("DRAW"), SUBCMD_DRAW_BARCODE));
+	}
+}
 void CMainFrame::OnDrawCoor()
 {
 	// TODO: 在此添加命令处理程序代码

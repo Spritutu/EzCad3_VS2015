@@ -285,6 +285,10 @@ protected:
 	afx_msg void OnUpdateDrawBarcode(CCmdUI *pCmdUI);
 	afx_msg void OnDrawBarcode1();
 	afx_msg void OnUpdateDrawBarcode1(CCmdUI *pCmdUI);
+	afx_msg void OnDrawBarcode2();
+	afx_msg void OnUpdateDrawBarcode2(CCmdUI *pCmdUI);
+	afx_msg void OnDrawBarcode3();
+	afx_msg void OnUpdateDrawBarcode3(CCmdUI *pCmdUI);
 	afx_msg void OnDrawCoor();
 	afx_msg void OnUpdateDrawCoor(CCmdUI *pCmdUI);
 	afx_msg void OnDrawClose();
