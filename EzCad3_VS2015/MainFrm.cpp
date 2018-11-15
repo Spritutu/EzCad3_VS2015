@@ -12,7 +12,7 @@
 #include "QIniFile.h"
 #include "SysParam.h"
 #include "afxdockingpanesrow.h" 
-#include "E:\Users\25019\Documents\Visual Studio 2017\Projects\180905-EZCAD3 UI\EzCad3_VS2015\EzCad3_VS2015\Mark\MarkStd\DlgMark.h"
+//#include "E:\Users\25019\Documents\Visual Studio 2017\Projects\180905-EZCAD3 UI\EzCad3_VS2015\EzCad3_VS2015\Mark\MarkStd\DlgMark.h"
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
