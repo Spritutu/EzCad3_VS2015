@@ -15,8 +15,8 @@
 #include "SystemParam\DlgSystemParam.h"
 #include "QDlg.h" 
 #include "QMotormgr.h" 
-#include "E:\Users\25019\Documents\Visual Studio 2017\Projects\180905-EZCAD3 UI\EzCad3_VS2015\EzCad3_VS2015\Mark\MarkStd\DlgMarking.h"
-#include "E:\Users\25019\Documents\Visual Studio 2017\Projects\180905-EZCAD3 UI\EzCad3_VS2015\EzCad3_VS2015\Mark\MarkStd\DlgMark.h"
+//#include "E:\Users\25019\Documents\Visual Studio 2017\Projects\180905-EZCAD3 UI\EzCad3_VS2015\EzCad3_VS2015\Mark\MarkStd\DlgMarking.h"
+//#include "E:\Users\25019\Documents\Visual Studio 2017\Projects\180905-EZCAD3 UI\EzCad3_VS2015\EzCad3_VS2015\Mark\MarkStd\DlgMark.h"
 
 
 
